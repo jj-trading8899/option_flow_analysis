@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Options Flow Terminal</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/terminal.css">
+</head>
+<body>
+
+<div class="noise-overlay"></div>
+
+<header class="site-header">
+  <div class="header-left">
+    <div class="logo-mark">
+      <span class="logo-bracket">[</span>
+      <span class="logo-text">OFT</span>
+      <span class="logo-bracket">]</span>
+    </div>
+    <div class="header-title">
+      <h1>Options Flow Terminal</h1>
+      <p class="header-sub" id="header-date">Loading...</p>
+    </div>
+  </div>
+  <div class="header-right">
+    <div class="date-nav">
+      <button class="date-btn" id="prevDate" title="Previous date">◂</button>
+      <select id="dateSelect" class="date-select"></select>
+      <button class="date-btn" id="nextDate" title="Next date">▸</button>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+  <!-- Summary cards -->
+  <section class="summary-row" id="summaryRow"></section>
+
+  <!-- Filters -->
+  <div class="filter-bar">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="bullish">Bullish</button>
+    <button class="filter-btn" data-filter="bearish">Bearish</button>
+    <button class="filter-btn" data-filter="other">Mixed / Hedge</button>
+    <div class="sort-group">
+      <label class="sort-label">Sort:</label>
+      <select id="sortSelect" class="sort-select">
+        <option value="premium">Premium</option>
+        <option value="trades">Trades</option>
+        <option value="bullpct">Bull %</option>
+        <option value="bearpct">Bear %</option>
+        <option value="alpha">Ticker</option>
+      </select>
+    </div>
+  </div>
+
+  <!-- Ticker cards -->
+  <div class="cards-grid" id="cardsGrid"></div>
+
+  <!-- Daily key shifts -->
+  <section class="shifts-box" id="shiftsBox"></section>
+</main>
+
+<footer class="site-footer">
+  <p>Data for informational purposes only. Not financial advice.</p>
+</footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>
