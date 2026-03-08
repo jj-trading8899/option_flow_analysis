@@ -2333,6 +2333,110 @@
           }
         ]
       }
+    },
+    "IBIT": {
+      "2026-03-06": {
+        "spot": 38.6,
+        "trades": 152,
+        "calls": 90,
+        "puts": 62,
+        "totalPrem": 10768908,
+        "bullPrem": 4016055,
+        "bearPrem": 6106268,
+        "neutPrem": 646585,
+        "sweeps": 97,
+        "sweepPrem": 7000000,
+        "bullCallPrem": 2774954,
+        "bearCallPrem": 2484745,
+        "bullPutPrem": 1241101,
+        "bearPutPrem": 3621524,
+        "avgCallStrike": 40.12,
+        "avgPutStrike": 38.22,
+        "trend": "bearish",
+        "summary": "Bitcoin ETF persistently bearish \u2014 57% bear all week. Friday shifted from call-selling to directional put-buying: $992K at $37 (Apr), $401K at $31 (May), $331K at $31 (Jun). Bears went from capping upside to actively betting on downside. 64% sweeps. Aligns with BTC miner carnage.",
+        "topTrades": [
+          {
+            "type": "PUT",
+            "strike": 37,
+            "exp": "Apr 17",
+            "prem": 992000,
+            "sent": "BEARISH",
+            "act": "SWEEP"
+          },
+          {
+            "type": "PUT",
+            "strike": 31,
+            "exp": "May 15",
+            "prem": 401250,
+            "sent": "BEARISH",
+            "act": "SWEEP"
+          },
+          {
+            "type": "PUT",
+            "strike": 31,
+            "exp": "Jun 18",
+            "prem": 331398,
+            "sent": "BEARISH",
+            "act": "SWEEP"
+          },
+          {
+            "type": "CALL",
+            "strike": 100,
+            "exp": "Jan 2028",
+            "prem": 283409,
+            "sent": "BEARISH",
+            "act": "SWEEP"
+          }
+        ]
+      }
+    },
+    "ETHA": {
+      "2026-03-06": {
+        "spot": 14.95,
+        "trades": 42,
+        "calls": 28,
+        "puts": 14,
+        "totalPrem": 2786886,
+        "bullPrem": 1660308,
+        "bearPrem": 854553,
+        "neutPrem": 272025,
+        "sweeps": 15,
+        "sweepPrem": 900000,
+        "bullCallPrem": 1502495,
+        "bearCallPrem": 465781,
+        "bullPutPrem": 157813,
+        "bearPutPrem": 388772,
+        "avgCallStrike": 14.61,
+        "avgPutStrike": 14.49,
+        "trend": "bullish",
+        "summary": "Ethereum ETF diverging bullish from IBIT. 60% bull despite -5.6% drop. $405K LEAPS call at $15 and $253K at $20 (Jan '27) show long-term conviction. Bullish call premium ($1.5M) triples bearish. ETH finding its own bid while BTC stays bearish.",
+        "topTrades": [
+          {
+            "type": "CALL",
+            "strike": 15,
+            "exp": "Jan 2027",
+            "prem": 405000,
+            "sent": "BULLISH",
+            "act": "SWEEP"
+          },
+          {
+            "type": "CALL",
+            "strike": 20,
+            "exp": "Jan 2027",
+            "prem": 253000,
+            "sent": "BULLISH",
+            "act": "TRADE"
+          },
+          {
+            "type": "CALL",
+            "strike": 15,
+            "exp": "Apr 17",
+            "prem": 126319,
+            "sent": "BEARISH",
+            "act": "SWEEP"
+          }
+        ]
+      }
     }
   }
 }
