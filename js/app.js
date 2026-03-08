@@ -90,6 +90,9 @@ function renderCards(date) {
     tickers = tickers.filter(t => getTickerData(t, date).trend === 'bearish');
   } else if (currentFilter === 'other') {
     tickers = tickers.filter(t => ['mixed', 'hedging'].includes(getTickerData(t, date).trend));
+  } else if (currentFilter === 'crypto') {
+    tickers = tickers.filter(t => ['IBIT', 'ETHA'].includes(t));
+  }
   }
 
   // Sort
