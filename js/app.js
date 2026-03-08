@@ -93,7 +93,6 @@ function renderCards(date) {
   } else if (currentFilter === 'crypto') {
     tickers = tickers.filter(t => ['IBIT', 'ETHA'].includes(t));
   }
-  }
 
   // Sort
   tickers.sort((a, b) => {
