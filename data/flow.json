@@ -1,2442 +1,382 @@
-{
-  "latest_date": "2026-03-06",
-  "dates": [
-    "2026-03-03",
-    "2026-03-05",
-    "2026-03-06"
-  ],
-  "tickers": {
-    "NVDA": {
-      "2026-03-05": {
-        "spot": 183.37,
-        "trades": 441,
-        "calls": 253,
-        "puts": 188,
-        "totalPrem": 36970267,
-        "bullPrem": 15742305,
-        "bearPrem": 16424954,
-        "neutPrem": 4803008,
-        "sweeps": 329,
-        "sweepPrem": 28200411,
-        "bullCallPrem": 9091573,
-        "bearCallPrem": 8765367,
-        "bullPutPrem": 6650732,
-        "bearPutPrem": 7659587,
-        "avgCallStrike": 183.04,
-        "avgPutStrike": 172.27,
-        "trend": "mixed",
-        "summary": "Bearish grip loosening. Bear premium dropped from 48% to 44% while bull rose 40% to 43%. Call flow nearly balanced ($9.1M bull vs $8.8M bear), a shift from Monday's heavy bearish call skew. Put side still leans bearish. $1.25M bullish put sweep at $140 (Jun) is deep OTM protection. Short-dated bearish call sweeps at $182-185 suggest near-term resistance views.",
-        "topTrades": [
-          {
-            "type": "PUT",
-            "strike": 140,
-            "exp": "Jun 18",
-            "prem": 1246493,
-            "sent": "BULLISH",
-            "act": "SWEEP"
-          },
-          {
-            "type": "CALL",
-            "strike": 185,
-            "exp": "Mar 13",
-            "prem": 1205000,
-            "sent": "BEARISH",
-            "act": "SWEEP"
-          },
-          {
-            "type": "CALL",
-            "strike": 80,
-            "exp": "Dec 18",
-            "prem": 804900,
-            "sent": "NEUTRAL",
-            "act": "TRADE"
-          },
-          {
-            "type": "CALL",
-            "strike": 182,
-            "exp": "Mar 9",
-            "prem": 800516,
-            "sent": "BEARISH",
-            "act": "SWEEP"
-          },
-          {
-            "type": "CALL",
-            "strike": 170,
-            "exp": "Mar 6",
-            "prem": 790876,
-            "sent": "BEARISH",
-            "act": "SWEEP"
-          }
-        ]
-      },
-      "2026-03-03": {
-        "spot": 180.13,
-        "trades": 386,
-        "calls": 216,
-        "puts": 170,
-        "totalPrem": 41636030,
-        "bullPrem": 16646642,
-        "bearPrem": 19891995,
-        "neutPrem": 5097393,
-        "sweeps": 289,
-        "sweepPrem": 33772309,
-        "bullCallPrem": 8123112,
-        "bearCallPrem": 13324942,
-        "bullPutPrem": 8523530,
-        "bearPutPrem": 6567053,
-        "avgCallStrike": 169.13,
-        "avgPutStrike": 181.2,
-        "trend": "bearish",
-        "summary": "Heavy bearish sweep activity. $19.9M bearish premium vs $16.6M bullish. Largest trade: $4.5M bearish call sweep at $180 (Dec '28). Bearish call premium ($13.3M) far exceeds bullish ($8.1M), suggesting institutional call writing.",
-        "topTrades": [
-          {
-            "type": "CALL",
-            "strike": 180,
-            "exp": "Dec 2028",
-            "prem": 4526022,
-            "sent": "BEARISH",
-            "act": "SWEEP"
-          },
-          {
-            "type": "CALL",
-            "strike": 175,
-            "exp": "Mar 13",
-            "prem": 1377028,
-            "sent": "BEARISH",
-            "act": "SWEEP"
-          },
-          {
-            "type": "PUT",
-            "strike": 175,
-            "exp": "Dec 2028",
-            "prem": 1306780,
-            "sent": "BULLISH",
-            "act": "SWEEP"
-          }
-        ]
-      },
-      "2026-03-06": {
-        "spot": 177.95,
-        "trades": 150,
-        "calls": 67,
-        "puts": 83,
-        "totalPrem": 18127955,
-        "bullPrem": 9404501,
-        "bearPrem": 7123884,
-        "neutPrem": 1599569,
-        "sweeps": 107,
-        "sweepPrem": 15290981,
-        "bullCallPrem": 6443765,
-        "bearCallPrem": 1947150,
-        "bullPutPrem": 2960737,
-        "bearPutPrem": 5176735,
-        "avgCallStrike": 182.18,
-        "avgPutStrike": 178.16,
-        "trend": "bullish",
-        "summary": "Flipped bullish into the selloff. Stock down -3% but bull premium leads 52% vs 39% bear \u2014 first time in 3 days. Call flow decisively bullish ($6.4M vs $1.9M bear), reversing Monday's $13.3M bearish call dominance. $1.6M deep ITM call sweep at $140 and $1.3M at $178 show aggressive dip-buying. 71% sweeps \u2014 urgent institutional flow. Buying the dip with conviction.",
-        "topTrades": [
-          {
-            "type": "PUT",
-            "strike": 175,
-            "exp": "Mar 13",
-            "prem": 1879805,
-            "sent": "BEARISH",
-            "act": "SWEEP"
-          },
-          {
-            "type": "CALL",
-            "strike": 140,
-            "exp": "Mar 20",
-            "prem": 1617585,
-            "sent": "BULLISH",
-            "act": "SWEEP"
-          },
-          {
-            "type": "CALL",
-            "strike": 178,
-            "exp": "Mar 13",
-            "prem": 1320595,
-            "sent": "BULLISH",
-            "act": "SWEEP"
-          },
-          {
-            "type": "CALL",
-            "strike": 180,
-            "exp": "Mar 9",
-            "prem": 1257984,
-            "sent": "BULLISH",
-            "act": "SWEEP"
-          },
-          {
-            "type": "PUT",
-            "strike": 170,
-            "exp": "Mar 20",
-            "prem": 1035000,
-            "sent": "BULLISH",
-            "act": "SWEEP"
-          }
-        ]
-      }
-    },
-    "GLD": {
-      "2026-03-05": {
-        "spot": 466.1,
-        "trades": 212,
-        "calls": 156,
-        "puts": 56,
-        "totalPrem": 29909852,
-        "bullPrem": 17156748,
-        "bearPrem": 9875056,
-        "neutPrem": 2878049,
-        "sweeps": 59,
-        "sweepPrem": 11303281,
-        "bullCallPrem": 15079585,
-        "bearCallPrem": 6535354,
-        "bullPutPrem": 2077163,
-        "bearPutPrem": 3339702,
-        "avgCallStrike": 468.37,
-        "avgPutStrike": 456.79,
-        "trend": "bullish",
-        "summary": "Gold conviction strengthening. Premium up +26% with bullish share surging 47% to 57%. Bullish call premium nearly doubled to $15.1M. Top trades: $2.4M call at $460 Apr, $1.8M LEAPS at $450, all bought at ask. Clearest bullish consensus in the dataset.",
-        "topTrades": [
-          {
-            "type": "CALL",
-            "strike": 460,
-            "exp": "Apr 17",
-            "prem": 2434000,
-            "sent": "BULLISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "CALL",
-            "strike": 275,
-            "exp": "Sep 18",
-            "prem": 2226496,
-            "sent": "BEARISH",
-            "act": "SWEEP"
-          },
-          {
-            "type": "CALL",
-            "strike": 450,
-            "exp": "Mar 2027",
-            "prem": 1794000,
-            "sent": "BULLISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "CALL",
-            "strike": 460,
-            "exp": "Mar 20",
-            "prem": 1765000,
-            "sent": "BULLISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "CALL",
-            "strike": 428,
-            "exp": "Mar 20",
-            "prem": 1113840,
-            "sent": "BULLISH",
-            "act": "TRADE"
-          }
-        ]
-      },
-      "2026-03-03": {
-        "spot": 468.53,
-        "trades": 261,
-        "calls": 191,
-        "puts": 70,
-        "totalPrem": 23791382,
-        "bullPrem": 11149047,
-        "bearPrem": 8161928,
-        "neutPrem": 4480406,
-        "sweeps": 90,
-        "sweepPrem": 10049030,
-        "bullCallPrem": 9221467,
-        "bearCallPrem": 6030918,
-        "bullPutPrem": 1927581,
-        "bearPutPrem": 2131011,
-        "avgCallStrike": 473.92,
-        "avgPutStrike": 439.0,
-        "trend": "bullish",
-        "summary": "Call-dominant flow (73% calls) with bullish premium leading at $11.1M vs $8.2M bearish. Largest trade: $1.1M bullish call sweep at $450 into Jan '27 LEAPS.",
-        "topTrades": [
-          {
-            "type": "CALL",
-            "strike": 450,
-            "exp": "Jan 2027",
-            "prem": 1092200,
-            "sent": "BULLISH",
-            "act": "SWEEP"
-          },
-          {
-            "type": "CALL",
-            "strike": 473,
-            "exp": "Mar 20",
-            "prem": 971750,
-            "sent": "BEARISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "CALL",
-            "strike": 480,
-            "exp": "Mar 20",
-            "prem": 648000,
-            "sent": "BULLISH",
-            "act": "SWEEP"
-          }
-        ]
-      },
-      "2026-03-06": {
-        "spot": 474.63,
-        "trades": 269,
-        "calls": 199,
-        "puts": 70,
-        "totalPrem": 20753065,
-        "bullPrem": 7579037,
-        "bearPrem": 7014570,
-        "neutPrem": 6159458,
-        "sweeps": 87,
-        "sweepPrem": 8555688,
-        "bullCallPrem": 6334292,
-        "bearCallPrem": 5454442,
-        "bullPutPrem": 1244745,
-        "bearPutPrem": 1560128,
-        "avgCallStrike": 482.06,
-        "avgPutStrike": 458.14,
-        "trend": "mixed",
-        "summary": "Cooling after 2 days of bullish dominance, even as spot surged +1.8% to $474.63. Bull share dropped 57% to 37%, neutral spiked to 30%. $766K neutral call sweep at $585 (Jan '27) and $454K at $655 show speculative far-OTM positioning. Premium down -31%. Rally attracting profit-taking and vol plays rather than fresh directional bets.",
-        "topTrades": [
-          {
-            "type": "CALL",
-            "strike": 585,
-            "exp": "Jan 2027",
-            "prem": 766296,
-            "sent": "NEUTRAL",
-            "act": "SWEEP"
-          },
-          {
-            "type": "CALL",
-            "strike": 425,
-            "exp": "Mar 31",
-            "prem": 510000,
-            "sent": "BULLISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "CALL",
-            "strike": 490,
-            "exp": "Aug 21",
-            "prem": 509500,
-            "sent": "BULLISH",
-            "act": "SWEEP"
-          },
-          {
-            "type": "CALL",
-            "strike": 400,
-            "exp": "Jan 2027",
-            "prem": 495390,
-            "sent": "BEARISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "CALL",
-            "strike": 655,
-            "exp": "Jan 2027",
-            "prem": 454346,
-            "sent": "NEUTRAL",
-            "act": "SWEEP"
-          }
-        ]
-      }
-    },
-    "SLV": {
-      "2026-03-05": {
-        "spot": 74.23,
-        "trades": 209,
-        "calls": 108,
-        "puts": 101,
-        "totalPrem": 33110378,
-        "bullPrem": 14750611,
-        "bearPrem": 15538268,
-        "neutPrem": 2821500,
-        "sweeps": 56,
-        "sweepPrem": 8795363,
-        "bullCallPrem": 5076645,
-        "bearCallPrem": 4860566,
-        "bullPutPrem": 9673966,
-        "bearPutPrem": 10677701,
-        "avgCallStrike": 89.8,
-        "avgPutStrike": 131.56,
-        "trend": "mixed",
-        "summary": "Premium surged +39% to $33.1M. Bulls stepped in massively (24% to 45%). However, $5.6M bearish put at $72 (Aug) anchors bear case. New bullish LEAPS calls at $74 and $90. The most contested name in the book.",
-        "topTrades": [
-          {
-            "type": "PUT",
-            "strike": 72,
-            "exp": "Aug 21",
-            "prem": 5625000,
-            "sent": "BEARISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "PUT",
-            "strike": 82,
-            "exp": "Oct 16",
-            "prem": 1377387,
-            "sent": "BULLISH",
-            "act": "SWEEP"
-          },
-          {
-            "type": "PUT",
-            "strike": 65,
-            "exp": "Jun 18",
-            "prem": 1280400,
-            "sent": "BULLISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "CALL",
-            "strike": 90,
-            "exp": "Jan 2027",
-            "prem": 960000,
-            "sent": "BULLISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "CALL",
-            "strike": 74,
-            "exp": "Jan 2027",
-            "prem": 857500,
-            "sent": "BULLISH",
-            "act": "TRADE"
-          }
-        ]
-      },
-      "2026-03-03": {
-        "spot": 74.66,
-        "trades": 185,
-        "calls": 123,
-        "puts": 62,
-        "totalPrem": 23754917,
-        "bullPrem": 5676890,
-        "bearPrem": 15611033,
-        "neutPrem": 2466994,
-        "sweeps": 60,
-        "sweepPrem": 8434366,
-        "bullCallPrem": 3966292,
-        "bearCallPrem": 5742512,
-        "bullPutPrem": 1710598,
-        "bearPutPrem": 9868521,
-        "avgCallStrike": 78.35,
-        "avgPutStrike": 110.38,
-        "trend": "bearish",
-        "summary": "Despite 66% call volume, $15.6M bearish vs $5.7M bullish. Three $1.46M deep ITM put buys at $195 (Jan '27). Strongly bearish premium skew.",
-        "topTrades": [
-          {
-            "type": "PUT",
-            "strike": 195,
-            "exp": "Jan 2027",
-            "prem": 1464120,
-            "sent": "BEARISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "PUT",
-            "strike": 195,
-            "exp": "Jan 2027",
-            "prem": 1463400,
-            "sent": "BEARISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "PUT",
-            "strike": 195,
-            "exp": "Jan 2027",
-            "prem": 1463400,
-            "sent": "BEARISH",
-            "act": "TRADE"
-          }
-        ]
-      },
-      "2026-03-06": {
-        "spot": 76.0,
-        "trades": 130,
-        "calls": 98,
-        "puts": 32,
-        "totalPrem": 17244234,
-        "bullPrem": 7959732,
-        "bearPrem": 5454473,
-        "neutPrem": 3830028,
-        "sweeps": 37,
-        "sweepPrem": 5837209,
-        "bullCallPrem": 7186527,
-        "bearCallPrem": 4056523,
-        "bullPutPrem": 773205,
-        "bearPutPrem": 1397950,
-        "avgCallStrike": 82.44,
-        "avgPutStrike": 93.59,
-        "trend": "bullish",
-        "summary": "Bulls won the silver battle. Spot +2.4%, bullish premium leads 46% vs 32% bear. $2.3M deep ITM bullish call sweep at $55 (Jun) is the whale trade. Call premium skew decisive: $7.2M bull vs $4.1M bear. 75% calls \u2014 most call-heavy day yet. Silver is breaking bullish.",
-        "topTrades": [
-          {
-            "type": "CALL",
-            "strike": 55,
-            "exp": "Jun 18",
-            "prem": 2267659,
-            "sent": "BULLISH",
-            "act": "SWEEP"
-          },
-          {
-            "type": "PUT",
-            "strike": 210,
-            "exp": "Dec 31",
-            "prem": 1334223,
-            "sent": "NEUTRAL",
-            "act": "TRADE"
-          },
-          {
-            "type": "CALL",
-            "strike": 75,
-            "exp": "Jun 18",
-            "prem": 1174000,
-            "sent": "NEUTRAL",
-            "act": "TRADE"
-          },
-          {
-            "type": "CALL",
-            "strike": 79,
-            "exp": "Jun 18",
-            "prem": 927000,
-            "sent": "BULLISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "PUT",
-            "strike": 200,
-            "exp": "Jan 2027",
-            "prem": 751200,
-            "sent": "BEARISH",
-            "act": "TRADE"
-          }
-        ]
-      }
-    },
-    "IREN": {
-      "2026-03-05": {
-        "spot": 40.07,
-        "trades": 223,
-        "calls": 172,
-        "puts": 51,
-        "totalPrem": 17570629,
-        "bullPrem": 7607439,
-        "bearPrem": 7190194,
-        "neutPrem": 2772996,
-        "sweeps": 101,
-        "sweepPrem": 8997170,
-        "bullCallPrem": 6853632,
-        "bearCallPrem": 5218836,
-        "bullPutPrem": 753806,
-        "bearPutPrem": 1971358,
-        "avgCallStrike": 48.51,
-        "avgPutStrike": 43.15,
-        "trend": "mixed",
-        "summary": "Shifted more bullish. Bull premium leads (43% vs 41% bear). Call-heavy (77%) with bullish call premium $6.9M vs $5.2M bearish. $708K bullish call sweep at $60 (Jun) targets +50% upside. Still contested but tilting bullish.",
-        "topTrades": [
-          {
-            "type": "CALL",
-            "strike": 60,
-            "exp": "Jun 18",
-            "prem": 708059,
-            "sent": "BULLISH",
-            "act": "SWEEP"
-          },
-          {
-            "type": "CALL",
-            "strike": 65,
-            "exp": "Sep 18",
-            "prem": 697400,
-            "sent": "BEARISH",
-            "act": "SWEEP"
-          },
-          {
-            "type": "CALL",
-            "strike": 60,
-            "exp": "Sep 18",
-            "prem": 393600,
-            "sent": "BULLISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "CALL",
-            "strike": 60,
-            "exp": "Aug 21",
-            "prem": 360050,
-            "sent": "BEARISH",
-            "act": "SWEEP"
-          },
-          {
-            "type": "CALL",
-            "strike": 30,
-            "exp": "Jun 18",
-            "prem": 329300,
-            "sent": "BULLISH",
-            "act": "TRADE"
-          }
-        ]
-      },
-      "2026-03-03": {
-        "spot": 39.36,
-        "trades": 210,
-        "calls": 142,
-        "puts": 68,
-        "totalPrem": 24010773,
-        "bullPrem": 7313199,
-        "bearPrem": 8631574,
-        "neutPrem": 8065999,
-        "sweeps": 106,
-        "sweepPrem": 10422335,
-        "bullCallPrem": 5677269,
-        "bearCallPrem": 5957605,
-        "bullPutPrem": 1635931,
-        "bearPutPrem": 2673969,
-        "avgCallStrike": 49.5,
-        "avgPutStrike": 38.69,
-        "trend": "mixed",
-        "summary": "Highly active $24M total. $6M neutral PUT at $35 (Dec) dominates \u2014 likely volatility play. High neutral premium (34%) points to vol traders. Battleground.",
-        "topTrades": [
-          {
-            "type": "PUT",
-            "strike": 35,
-            "exp": "Dec 18",
-            "prem": 6000000,
-            "sent": "NEUTRAL",
-            "act": "TRADE"
-          },
-          {
-            "type": "CALL",
-            "strike": 55,
-            "exp": "Jan 2027",
-            "prem": 838880,
-            "sent": "BULLISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "CALL",
-            "strike": 65,
-            "exp": "Sep 18",
-            "prem": 697400,
-            "sent": "BEARISH",
-            "act": "SWEEP"
-          }
-        ]
-      },
-      "2026-03-06": {
-        "spot": 36.99,
-        "trades": 198,
-        "calls": 141,
-        "puts": 57,
-        "totalPrem": 21806650,
-        "bullPrem": 12023454,
-        "bearPrem": 7853557,
-        "neutPrem": 1929639,
-        "sweeps": 96,
-        "sweepPrem": 9145674,
-        "bullCallPrem": 5695269,
-        "bearCallPrem": 4770812,
-        "bullPutPrem": 6328185,
-        "bearPutPrem": 3082745,
-        "avgCallStrike": 46.54,
-        "avgPutStrike": 40.0,
-        "trend": "bullish",
-        "summary": "Buying the -7.7% dip aggressively. Bull premium surged to 55%. $3.07M + $792K + $768K bullish puts at $34 (Jul) \u2014 massive put-selling collecting $4.6M premium. Bullish put premium ($6.3M) dwarfs bearish ($3.1M). Call side also bullish-leaning. High-conviction dip-buying through put-selling.",
-        "topTrades": [
-          {
-            "type": "PUT",
-            "strike": 34,
-            "exp": "Jul 17",
-            "prem": 3072000,
-            "sent": "BULLISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "PUT",
-            "strike": 34,
-            "exp": "Jul 17",
-            "prem": 792000,
-            "sent": "BULLISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "PUT",
-            "strike": 34,
-            "exp": "Jul 17",
-            "prem": 768000,
-            "sent": "BULLISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "PUT",
-            "strike": 110,
-            "exp": "Jan 2028",
-            "prem": 760000,
-            "sent": "BEARISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "CALL",
-            "strike": 60,
-            "exp": "Jun 18",
-            "prem": 708059,
-            "sent": "BULLISH",
-            "act": "SWEEP"
-          }
-        ]
-      }
-    },
-    "CIFR": {
-      "2026-03-05": {
-        "spot": 15.19,
-        "trades": 155,
-        "calls": 87,
-        "puts": 68,
-        "totalPrem": 13567766,
-        "bullPrem": 8257106,
-        "bearPrem": 3982029,
-        "neutPrem": 1328632,
-        "sweeps": 53,
-        "sweepPrem": 4404159,
-        "bullCallPrem": 3954075,
-        "bearCallPrem": 2743266,
-        "bullPutPrem": 4303031,
-        "bearPutPrem": 1238762,
-        "avgCallStrike": 15.18,
-        "avgPutStrike": 23.04,
-        "trend": "bullish",
-        "summary": "Flipped bullish. Bull premium surged 44% to 61%, bear collapsed 46% to 29%. $416K bullish call sweep at $14 (tomorrow's expiry). Bullish sweep count (29) doubles bearish (14). Most dramatic day-over-day shift among BTC miners.",
-        "topTrades": [
-          {
-            "type": "CALL",
-            "strike": 14,
-            "exp": "Mar 6",
-            "prem": 415950,
-            "sent": "BULLISH",
-            "act": "SWEEP"
-          },
-          {
-            "type": "CALL",
-            "strike": 20,
-            "exp": "Mar 20",
-            "prem": 288000,
-            "sent": "BULLISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "CALL",
-            "strike": 13,
-            "exp": "Mar 6",
-            "prem": 274500,
-            "sent": "BEARISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "CALL",
-            "strike": 13,
-            "exp": "Mar 6",
-            "prem": 231710,
-            "sent": "BEARISH",
-            "act": "SWEEP"
-          },
-          {
-            "type": "PUT",
-            "strike": 37,
-            "exp": "Mar 6",
-            "prem": 225800,
-            "sent": "BULLISH",
-            "act": "TRADE"
-          }
-        ]
-      },
-      "2026-03-03": {
-        "spot": 14.88,
-        "trades": 141,
-        "calls": 61,
-        "puts": 80,
-        "totalPrem": 13469092,
-        "bullPrem": 5872308,
-        "bearPrem": 6255188,
-        "neutPrem": 1341596,
-        "sweeps": 38,
-        "sweepPrem": 2830402,
-        "bullCallPrem": 1633128,
-        "bearCallPrem": 2061868,
-        "bullPutPrem": 4239180,
-        "bearPutPrem": 4193320,
-        "avgCallStrike": 15.39,
-        "avgPutStrike": 26.82,
-        "trend": "mixed",
-        "summary": "Nearly even premium split ($6.3M bear vs $5.9M bull). No clear directional consensus.",
-        "topTrades": [
-          {
-            "type": "CALL",
-            "strike": 20,
-            "exp": "Mar 20",
-            "prem": 288000,
-            "sent": "BULLISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "PUT",
-            "strike": 37,
-            "exp": "Mar 6",
-            "prem": 225800,
-            "sent": "BULLISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "PUT",
-            "strike": 37,
-            "exp": "Mar 6",
-            "prem": 225000,
-            "sent": "BULLISH",
-            "act": "TRADE"
-          }
-        ]
-      },
-      "2026-03-06": {
-        "spot": 13.63,
-        "trades": 152,
-        "calls": 92,
-        "puts": 60,
-        "totalPrem": 11280344,
-        "bullPrem": 5044836,
-        "bearPrem": 5500258,
-        "neutPrem": 735250,
-        "sweeps": 73,
-        "sweepPrem": 4594993,
-        "bullCallPrem": 3135115,
-        "bearCallPrem": 1914985,
-        "bullPutPrem": 1909721,
-        "bearPutPrem": 3585273,
-        "avgCallStrike": 14.11,
-        "avgPutStrike": 18.41,
-        "trend": "bearish",
-        "summary": "Whiplash reversal \u2014 flipped from 61% bullish yesterday to 49% bearish as stock cratered -10.3%. $964K and $565K bearish puts at $14 (Mar 13) targeting further downside. Top 5 trades ALL bearish. Bearish put premium ($3.6M) overwhelms bullish ($1.9M). Yesterday's bullish breakout completely reversed.",
-        "topTrades": [
-          {
-            "type": "PUT",
-            "strike": 14,
-            "exp": "Mar 13",
-            "prem": 964479,
-            "sent": "BEARISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "PUT",
-            "strike": 14,
-            "exp": "Mar 13",
-            "prem": 564785,
-            "sent": "BEARISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "PUT",
-            "strike": 12,
-            "exp": "Mar 27",
-            "prem": 235571,
-            "sent": "BEARISH",
-            "act": "SWEEP"
-          },
-          {
-            "type": "CALL",
-            "strike": 12,
-            "exp": "Mar 20",
-            "prem": 229500,
-            "sent": "BEARISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "PUT",
-            "strike": 13,
-            "exp": "Mar 20",
-            "prem": 221100,
-            "sent": "BEARISH",
-            "act": "SWEEP"
-          }
-        ]
-      }
-    },
-    "HYG": {
-      "2026-03-05": {
-        "spot": 80.11,
-        "trades": 35,
-        "calls": 5,
-        "puts": 30,
-        "totalPrem": 5261562,
-        "bullPrem": 2350040,
-        "bearPrem": 1586768,
-        "neutPrem": 1324754,
-        "sweeps": 20,
-        "sweepPrem": 2016213,
-        "bullCallPrem": 652906,
-        "bearCallPrem": 30400,
-        "bullPutPrem": 1697134,
-        "bearPutPrem": 1556368,
-        "avgCallStrike": 72.1,
-        "avgPutStrike": 79.52,
-        "trend": "hedging",
-        "summary": "Still hedging but mix changed. Premium down -17%, bearish sweeps now outnumber bullish (11 vs 6), flipping Monday's pattern. Neutral premium surged to 25%. More directional bearish bets emerging alongside protective hedging. Subtle but meaningful shift in credit sentiment.",
-        "topTrades": [
-          {
-            "type": "PUT",
-            "strike": 74,
-            "exp": "May 15",
-            "prem": 550000,
-            "sent": "NEUTRAL",
-            "act": "TRADE"
-          },
-          {
-            "type": "PUT",
-            "strike": 72,
-            "exp": "Sep 18",
-            "prem": 469224,
-            "sent": "BULLISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "CALL",
-            "strike": 70,
-            "exp": "Apr 17",
-            "prem": 434658,
-            "sent": "BULLISH",
-            "act": "SWEEP"
-          },
-          {
-            "type": "PUT",
-            "strike": 80,
-            "exp": "Apr 17",
-            "prem": 305000,
-            "sent": "BULLISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "PUT",
-            "strike": 78,
-            "exp": "Apr 17",
-            "prem": 290000,
-            "sent": "BEARISH",
-            "act": "TRADE"
-          }
-        ]
-      },
-      "2026-03-03": {
-        "spot": 80.14,
-        "trades": 54,
-        "calls": 4,
-        "puts": 50,
-        "totalPrem": 6345449,
-        "bullPrem": 4529590,
-        "bearPrem": 1697780,
-        "neutPrem": 118080,
-        "sweeps": 31,
-        "sweepPrem": 2665432,
-        "bullCallPrem": 196800,
-        "bearCallPrem": 0,
-        "bullPutPrem": 4332790,
-        "bearPutPrem": 1697780,
-        "avgCallStrike": 80.38,
-        "avgPutStrike": 78.12,
-        "trend": "hedging",
-        "summary": "93% puts but 71% bullish sentiment \u2014 classic hedging. Institutions buying puts at bid as portfolio insurance. Risk-off signal for credit.",
-        "topTrades": [
-          {
-            "type": "PUT",
-            "strike": 79,
-            "exp": "Jun 18",
-            "prem": 1161000,
-            "sent": "BULLISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "PUT",
-            "strike": 76,
-            "exp": "May 15",
-            "prem": 430000,
-            "sent": "BULLISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "PUT",
-            "strike": 80,
-            "exp": "Jun 18",
-            "prem": 321666,
-            "sent": "BULLISH",
-            "act": "SWEEP"
-          }
-        ]
-      },
-      "2026-03-06": {
-        "spot": 79.69,
-        "trades": 101,
-        "calls": 13,
-        "puts": 88,
-        "totalPrem": 19469004,
-        "bullPrem": 3872024,
-        "bearPrem": 10578593,
-        "neutPrem": 5018387,
-        "sweeps": 66,
-        "sweepPrem": 4665682,
-        "bullCallPrem": 175304,
-        "bearCallPrem": 1598124,
-        "bullPutPrem": 3696720,
-        "bearPutPrem": 8980469,
-        "avgCallStrike": 78.81,
-        "avgPutStrike": 78.27,
-        "trend": "bearish",
-        "summary": "Alarm bells. Premium EXPLODED +270% to $19.5M \u2014 largest single-day HYG flow in dataset. Bearish premium surged to 54%. $4M neutral put at $75 (May), $1.17M and $950K bearish puts at $79. Even calls turned bearish: $962K call sale at $80. 45 of 66 sweeps bearish. No longer hedging \u2014 aggressive credit protection.",
-        "topTrades": [
-          {
-            "type": "PUT",
-            "strike": 75,
-            "exp": "May 15",
-            "prem": 4000000,
-            "sent": "NEUTRAL",
-            "act": "TRADE"
-          },
-          {
-            "type": "PUT",
-            "strike": 79,
-            "exp": "Apr 17",
-            "prem": 1172500,
-            "sent": "BEARISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "CALL",
-            "strike": 80,
-            "exp": "Jun 18",
-            "prem": 962000,
-            "sent": "BEARISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "PUT",
-            "strike": 79,
-            "exp": "May 15",
-            "prem": 950000,
-            "sent": "BEARISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "PUT",
-            "strike": 80,
-            "exp": "Apr 17",
-            "prem": 686000,
-            "sent": "NEUTRAL",
-            "act": "TRADE"
-          }
-        ]
-      }
-    },
-    "WULF": {
-      "2026-03-05": {
-        "spot": 15.41,
-        "trades": 56,
-        "calls": 48,
-        "puts": 8,
-        "totalPrem": 5540578,
-        "bullPrem": 2097988,
-        "bearPrem": 3266891,
-        "neutPrem": 175700,
-        "sweeps": 25,
-        "sweepPrem": 1917949,
-        "bullCallPrem": 1785758,
-        "bearCallPrem": 3223891,
-        "bullPutPrem": 312230,
-        "bearPutPrem": 43000,
-        "avgCallStrike": 18.0,
-        "avgPutStrike": 15.0,
-        "trend": "bearish",
-        "summary": "Sharp reversal. Bull premium collapsed 55% to 38%, bear surged 36% to 59%. $903K ITM call selling at $14 and $643K in LEAPS call sales at $12. Institutional call writing, not bullish positioning. Complete 180 from Monday.",
-        "topTrades": [
-          {
-            "type": "CALL",
-            "strike": 14,
-            "exp": "Mar 20",
-            "prem": 902500,
-            "sent": "BEARISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "CALL",
-            "strike": 12,
-            "exp": "Jan 2027",
-            "prem": 333000,
-            "sent": "BEARISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "CALL",
-            "strike": 12,
-            "exp": "Jan 2027",
-            "prem": 310500,
-            "sent": "BEARISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "CALL",
-            "strike": 12,
-            "exp": "Jan 2027",
-            "prem": 288000,
-            "sent": "BULLISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "CALL",
-            "strike": 18,
-            "exp": "Apr 17",
-            "prem": 280319,
-            "sent": "BULLISH",
-            "act": "SWEEP"
-          }
-        ]
-      },
-      "2026-03-03": {
-        "spot": 15.05,
-        "trades": 90,
-        "calls": 70,
-        "puts": 20,
-        "totalPrem": 9759297,
-        "bullPrem": 5387024,
-        "bearPrem": 3506032,
-        "neutPrem": 866241,
-        "sweeps": 45,
-        "sweepPrem": 3296411,
-        "bullCallPrem": 4409547,
-        "bearCallPrem": 2851517,
-        "bullPutPrem": 977476,
-        "bearPutPrem": 654515,
-        "avgCallStrike": 16.32,
-        "avgPutStrike": 19.07,
-        "trend": "bullish",
-        "summary": "Strong bullish lean \u2014 78% calls, 55% bull premium. Repeated $610K bullish calls at $25 (Dec). Clearest bullish signal among BTC miners.",
-        "topTrades": [
-          {
-            "type": "CALL",
-            "strike": 25,
-            "exp": "Dec 18",
-            "prem": 610000,
-            "sent": "BULLISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "CALL",
-            "strike": 25,
-            "exp": "Dec 18",
-            "prem": 610000,
-            "sent": "BULLISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "CALL",
-            "strike": 12,
-            "exp": "Jan 2027",
-            "prem": 362500,
-            "sent": "BULLISH",
-            "act": "TRADE"
-          }
-        ]
-      },
-      "2026-03-06": {
-        "spot": 13.74,
-        "trades": 52,
-        "calls": 42,
-        "puts": 10,
-        "totalPrem": 4404686,
-        "bullPrem": 1772998,
-        "bearPrem": 2415589,
-        "neutPrem": 216100,
-        "sweeps": 22,
-        "sweepPrem": 1717403,
-        "bullCallPrem": 1539639,
-        "bearCallPrem": 2146816,
-        "bullPutPrem": 233359,
-        "bearPutPrem": 268772,
-        "avgCallStrike": 18.49,
-        "avgPutStrike": 14.6,
-        "trend": "bearish",
-        "summary": "Stays bearish for second straight day, now down -10.8%. Same $903K bearish ITM call at $14 (Mar 20) tops again. Bearish call premium ($2.1M) exceeds bullish ($1.5M). Some bullish fight-back at $15 strikes but overall call-writing trend intact.",
-        "topTrades": [
-          {
-            "type": "CALL",
-            "strike": 14,
-            "exp": "Mar 20",
-            "prem": 902500,
-            "sent": "BEARISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "CALL",
-            "strike": 15,
-            "exp": "Mar 20",
-            "prem": 478605,
-            "sent": "BULLISH",
-            "act": "SWEEP"
-          },
-          {
-            "type": "CALL",
-            "strike": 15,
-            "exp": "Apr 17",
-            "prem": 202713,
-            "sent": "BULLISH",
-            "act": "SWEEP"
-          },
-          {
-            "type": "CALL",
-            "strike": 32,
-            "exp": "Jan 2027",
-            "prem": 144400,
-            "sent": "BEARISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "CALL",
-            "strike": 17,
-            "exp": "Mar 13",
-            "prem": 140188,
-            "sent": "BEARISH",
-            "act": "SWEEP"
-          }
-        ]
-      }
-    },
-    "EOSE": {
-      "2026-03-05": {
-        "spot": 6.65,
-        "trades": 37,
-        "calls": 33,
-        "puts": 4,
-        "totalPrem": 2745342,
-        "bullPrem": 1120527,
-        "bearPrem": 1592835,
-        "neutPrem": 31980,
-        "sweeps": 17,
-        "sweepPrem": 1490590,
-        "bullCallPrem": 1058387,
-        "bearCallPrem": 1560835,
-        "bullPutPrem": 62140,
-        "bearPutPrem": 32000,
-        "avgCallStrike": 8.44,
-        "avgPutStrike": 7.5,
-        "trend": "bearish",
-        "summary": "Flipped bearish despite +7.8% rally. Premium surged +135% but bearish dominates at 58%. Top trades: bearish $6 LEAPS call selling (Jan '27) totaling ~$790K. Sell-the-rally activity.",
-        "topTrades": [
-          {
-            "type": "CALL",
-            "strike": 6,
-            "exp": "Jan 2027",
-            "prem": 279180,
-            "sent": "BEARISH",
-            "act": "SWEEP"
-          },
-          {
-            "type": "CALL",
-            "strike": 6,
-            "exp": "Jan 2027",
-            "prem": 181555,
-            "sent": "BEARISH",
-            "act": "SWEEP"
-          },
-          {
-            "type": "CALL",
-            "strike": 6,
-            "exp": "Jan 2027",
-            "prem": 165000,
-            "sent": "BEARISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "CALL",
-            "strike": 6,
-            "exp": "Jan 2027",
-            "prem": 165000,
-            "sent": "BEARISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "CALL",
-            "strike": 6,
-            "exp": "Jan 2027",
-            "prem": 165000,
-            "sent": "BULLISH",
-            "act": "SWEEP"
-          }
-        ]
-      },
-      "2026-03-03": {
-        "spot": 6.17,
-        "trades": 25,
-        "calls": 19,
-        "puts": 6,
-        "totalPrem": 1168600,
-        "bullPrem": 551992,
-        "bearPrem": 303070,
-        "neutPrem": 313538,
-        "sweeps": 10,
-        "sweepPrem": 414887,
-        "bullCallPrem": 489342,
-        "bearCallPrem": 209517,
-        "bullPutPrem": 62650,
-        "bearPutPrem": 93553,
-        "avgCallStrike": 10.74,
-        "avgPutStrike": 12.5,
-        "trend": "bullish",
-        "summary": "76% calls with bullish premium leading. Bullish call sweeps at $8 and $10 strikes target 30-62% upside.",
-        "topTrades": [
-          {
-            "type": "PUT",
-            "strike": 15,
-            "exp": "Jan 2027",
-            "prem": 243500,
-            "sent": "NEUTRAL",
-            "act": "TRADE"
-          },
-          {
-            "type": "CALL",
-            "strike": 10,
-            "exp": "Jul 17",
-            "prem": 75000,
-            "sent": "BULLISH",
-            "act": "SWEEP"
-          },
-          {
-            "type": "CALL",
-            "strike": 8,
-            "exp": "Apr 17",
-            "prem": 73650,
-            "sent": "BULLISH",
-            "act": "SWEEP"
-          }
-        ]
-      },
-      "2026-03-06": {
-        "spot": 6.23,
-        "trades": 9,
-        "calls": 9,
-        "puts": 0,
-        "totalPrem": 828496,
-        "bullPrem": 89000,
-        "bearPrem": 739496,
-        "neutPrem": 0,
-        "sweeps": 7,
-        "sweepPrem": 739496,
-        "bullCallPrem": 89000,
-        "bearCallPrem": 739496,
-        "bullPutPrem": 0,
-        "bearPutPrem": 0,
-        "avgCallStrike": 4.61,
-        "avgPutStrike": 0,
-        "trend": "bearish",
-        "summary": "Relentlessly bearish. 89% bear premium \u2014 5 consecutive bearish sweeps selling $2 LEAPS calls (Jan '28) totaling $675K. Deep ITM calls aggressively sold. Third straight day of deterioration from Monday's bullish read.",
-        "topTrades": [
-          {
-            "type": "CALL",
-            "strike": 2,
-            "exp": "Jan 2028",
-            "prem": 205071,
-            "sent": "BEARISH",
-            "act": "SWEEP"
-          },
-          {
-            "type": "CALL",
-            "strike": 2,
-            "exp": "Jan 2028",
-            "prem": 168300,
-            "sent": "BEARISH",
-            "act": "SWEEP"
-          },
-          {
-            "type": "CALL",
-            "strike": 2,
-            "exp": "Jan 2028",
-            "prem": 136855,
-            "sent": "BEARISH",
-            "act": "SWEEP"
-          },
-          {
-            "type": "CALL",
-            "strike": 2,
-            "exp": "Jan 2028",
-            "prem": 98475,
-            "sent": "BEARISH",
-            "act": "SWEEP"
-          },
-          {
-            "type": "CALL",
-            "strike": 2,
-            "exp": "Jan 2028",
-            "prem": 66155,
-            "sent": "BEARISH",
-            "act": "SWEEP"
-          }
-        ]
-      }
-    },
-    "RIOT": {
-      "2026-03-05": {
-        "spot": 15.61,
-        "trades": 37,
-        "calls": 16,
-        "puts": 21,
-        "totalPrem": 2297251,
-        "bullPrem": 1753307,
-        "bearPrem": 292744,
-        "neutPrem": 251200,
-        "sweeps": 12,
-        "sweepPrem": 620501,
-        "bullCallPrem": 526040,
-        "bearCallPrem": 203682,
-        "bullPutPrem": 1227267,
-        "bearPutPrem": 89062,
-        "avgCallStrike": 17.94,
-        "avgPutStrike": 20.19,
-        "trend": "bullish",
-        "summary": "Consistently bullish \u2014 76% bull premium. Same put-selling playbook: deep ITM puts at $29-32 sold at bid. Bear premium negligible at $293K. Steadiest bullish signal among BTC miners.",
-        "topTrades": [
-          {
-            "type": "PUT",
-            "strike": 32,
-            "exp": "Mar 20",
-            "prem": 156900,
-            "sent": "BULLISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "PUT",
-            "strike": 29,
-            "exp": "Mar 6",
-            "prem": 126700,
-            "sent": "BULLISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "PUT",
-            "strike": 29,
-            "exp": "Mar 6",
-            "prem": 126000,
-            "sent": "BULLISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "CALL",
-            "strike": 25,
-            "exp": "May 15",
-            "prem": 120000,
-            "sent": "BULLISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "CALL",
-            "strike": 12,
-            "exp": "Jan 2027",
-            "prem": 107226,
-            "sent": "NEUTRAL",
-            "act": "SWEEP"
-          }
-        ]
-      },
-      "2026-03-03": {
-        "spot": 15.24,
-        "trades": 40,
-        "calls": 14,
-        "puts": 26,
-        "totalPrem": 3204175,
-        "bullPrem": 2415218,
-        "bearPrem": 371761,
-        "neutPrem": 417196,
-        "sweeps": 14,
-        "sweepPrem": 1112773,
-        "bullCallPrem": 648231,
-        "bearCallPrem": 82032,
-        "bullPutPrem": 1766988,
-        "bearPutPrem": 289729,
-        "avgCallStrike": 19.68,
-        "avgPutStrike": 23.48,
-        "trend": "bullish",
-        "summary": "75% bullish premium. Deep ITM puts sold for income. $375K bullish call at $21 (Apr). Bullish structural positioning.",
-        "topTrades": [
-          {
-            "type": "CALL",
-            "strike": 21,
-            "exp": "Apr 17",
-            "prem": 375000,
-            "sent": "BULLISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "PUT",
-            "strike": 39,
-            "exp": "Mar 20",
-            "prem": 222000,
-            "sent": "BULLISH",
-            "act": "SWEEP"
-          },
-          {
-            "type": "PUT",
-            "strike": 38,
-            "exp": "Mar 20",
-            "prem": 212900,
-            "sent": "BULLISH",
-            "act": "TRADE"
-          }
-        ]
-      },
-      "2026-03-06": {
-        "spot": 14.12,
-        "trades": 75,
-        "calls": 41,
-        "puts": 34,
-        "totalPrem": 3995964,
-        "bullPrem": 1857544,
-        "bearPrem": 2056236,
-        "neutPrem": 82184,
-        "sweeps": 28,
-        "sweepPrem": 1370856,
-        "bullCallPrem": 753050,
-        "bearCallPrem": 962365,
-        "bullPutPrem": 1104494,
-        "bearPutPrem": 1093871,
-        "avgCallStrike": 15.07,
-        "avgPutStrike": 18.37,
-        "trend": "mixed",
-        "summary": "Cracked. The rock-steady 76% bull is gone. Down -9.5% with bear premium leading 51% vs 46%. Premium doubled (+74%) on the selloff. Bearish calls now exceed bullish. The BTC miner selloff broke RIOT's 3-day bullish streak.",
-        "topTrades": [
-          {
-            "type": "CALL",
-            "strike": 15,
-            "exp": "Mar 13",
-            "prem": 224631,
-            "sent": "BULLISH",
-            "act": "SWEEP"
-          },
-          {
-            "type": "PUT",
-            "strike": 30,
-            "exp": "Mar 13",
-            "prem": 157400,
-            "sent": "BULLISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "PUT",
-            "strike": 30,
-            "exp": "Mar 6",
-            "prem": 152700,
-            "sent": "BEARISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "PUT",
-            "strike": 30,
-            "exp": "Mar 13",
-            "prem": 147110,
-            "sent": "BULLISH",
-            "act": "SWEEP"
-          },
-          {
-            "type": "PUT",
-            "strike": 28,
-            "exp": "Mar 6",
-            "prem": 138500,
-            "sent": "BEARISH",
-            "act": "TRADE"
-          }
-        ]
-      }
-    },
-    "HIMS": {
-      "2026-03-05": {
-        "spot": 15.95,
-        "trades": 17,
-        "calls": 14,
-        "puts": 3,
-        "totalPrem": 1338951,
-        "bullPrem": 428230,
-        "bearPrem": 696581,
-        "neutPrem": 214140,
-        "sweeps": 5,
-        "sweepPrem": 239776,
-        "bullCallPrem": 268330,
-        "bearCallPrem": 410701,
-        "bullPutPrem": 159900,
-        "bearPutPrem": 285880,
-        "avgCallStrike": 13.82,
-        "avgPutStrike": 41.0,
-        "trend": "bearish",
-        "summary": "Complete reversal. Bull plummeted 68% to 32%, bear surged 12% to 52%. Bearish call selling $210K at $15 (Jun). Monday's clean bull case is gone.",
-        "topTrades": [
-          {
-            "type": "CALL",
-            "strike": 15,
-            "exp": "Jun 18",
-            "prem": 210000,
-            "sent": "BEARISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "PUT",
-            "strike": 43,
-            "exp": "May 15",
-            "prem": 159900,
-            "sent": "BULLISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "PUT",
-            "strike": 40,
-            "exp": "Jul 17",
-            "prem": 154375,
-            "sent": "BEARISH",
-            "act": "TRADE"
-          }
-        ]
-      },
-      "2026-03-03": {
-        "spot": 16.06,
-        "trades": 22,
-        "calls": 13,
-        "puts": 9,
-        "totalPrem": 1124608,
-        "bullPrem": 763257,
-        "bearPrem": 136178,
-        "neutPrem": 225173,
-        "sweeps": 8,
-        "sweepPrem": 515414,
-        "bullCallPrem": 572367,
-        "bearCallPrem": 71578,
-        "bullPutPrem": 190890,
-        "bearPutPrem": 64600,
-        "avgCallStrike": 15.65,
-        "avgPutStrike": 24.67,
-        "trend": "bullish",
-        "summary": "Overwhelmingly bullish \u2014 68% bull premium. $228K bullish call SWEEP above ask. Cleanest bullish signal.",
-        "topTrades": [
-          {
-            "type": "CALL",
-            "strike": 18,
-            "exp": "Apr 2",
-            "prem": 227610,
-            "sent": "BULLISH",
-            "act": "SWEEP"
-          },
-          {
-            "type": "PUT",
-            "strike": 40,
-            "exp": "Mar 20",
-            "prem": 74555,
-            "sent": "NEUTRAL",
-            "act": "TRADE"
-          }
-        ]
-      },
-      "2026-03-06": {
-        "spot": 15.76,
-        "trades": 10,
-        "calls": 3,
-        "puts": 7,
-        "totalPrem": 1090729,
-        "bullPrem": 303007,
-        "bearPrem": 693960,
-        "neutPrem": 93762,
-        "sweeps": 5,
-        "sweepPrem": 603888,
-        "bullCallPrem": 31992,
-        "bearCallPrem": 0,
-        "bullPutPrem": 271015,
-        "bearPutPrem": 693960,
-        "avgCallStrike": 19.0,
-        "avgPutStrike": 26.86,
-        "trend": "bearish",
-        "summary": "Second straight bearish day, deepening. Bear premium 64%. $372K bearish put sweep at $17 (Mar 20) near-the-money. $291K bearish LEAPS put at $15 (Jan '27). Complete 3-day reversal from Monday's 68% bullish.",
-        "topTrades": [
-          {
-            "type": "PUT",
-            "strike": 17,
-            "exp": "Mar 20",
-            "prem": 372000,
-            "sent": "BEARISH",
-            "act": "SWEEP"
-          },
-          {
-            "type": "PUT",
-            "strike": 15,
-            "exp": "Jan 2027",
-            "prem": 291000,
-            "sent": "BEARISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "PUT",
-            "strike": 8,
-            "exp": "Jan 2027",
-            "prem": 107120,
-            "sent": "BULLISH",
-            "act": "SWEEP"
-          }
-        ]
-      }
-    },
-    "CLSK": {
-      "2026-03-05": {
-        "spot": 9.86,
-        "trades": 28,
-        "calls": 20,
-        "puts": 8,
-        "totalPrem": 1940437,
-        "bullPrem": 1024853,
-        "bearPrem": 692578,
-        "neutPrem": 223006,
-        "sweeps": 10,
-        "sweepPrem": 535510,
-        "bullCallPrem": 453163,
-        "bearCallPrem": 618618,
-        "bullPutPrem": 571690,
-        "bearPutPrem": 73960,
-        "avgCallStrike": 14.95,
-        "avgPutStrike": 15.81,
-        "trend": "mixed",
-        "summary": "Improved from Monday. Premium nearly doubled (+88%), bull share rose 45% to 53%. Bullish put selling ($572K) is standout. Stock down -2.9% but options improving.",
-        "topTrades": [
-          {
-            "type": "CALL",
-            "strike": 20,
-            "exp": "Jan 2028",
-            "prem": 224000,
-            "sent": "BEARISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "CALL",
-            "strike": 11,
-            "exp": "Sep 18",
-            "prem": 140256,
-            "sent": "NEUTRAL",
-            "act": "TRADE"
-          },
-          {
-            "type": "PUT",
-            "strike": 22,
-            "exp": "Mar 6",
-            "prem": 122700,
-            "sent": "BULLISH",
-            "act": "TRADE"
-          }
-        ]
-      },
-      "2026-03-03": {
-        "spot": 10.15,
-        "trades": 19,
-        "calls": 10,
-        "puts": 9,
-        "totalPrem": 1032056,
-        "bullPrem": 466644,
-        "bearPrem": 565411,
-        "neutPrem": 0,
-        "sweeps": 10,
-        "sweepPrem": 447048,
-        "bullCallPrem": 147618,
-        "bearCallPrem": 266033,
-        "bullPutPrem": 319026,
-        "bearPutPrem": 299378,
-        "avgCallStrike": 12.8,
-        "avgPutStrike": 12.56,
-        "trend": "bearish",
-        "summary": "Slightly bearish. Bearish sweeps dominate 7 vs 3. Low volume limits conviction.",
-        "topTrades": [
-          {
-            "type": "PUT",
-            "strike": 20,
-            "exp": "Mar 20",
-            "prem": 167280,
-            "sent": "BEARISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "CALL",
-            "strike": 20,
-            "exp": "Jan 2027",
-            "prem": 75600,
-            "sent": "BULLISH",
-            "act": "TRADE"
-          }
-        ]
-      },
-      "2026-03-06": {
-        "spot": 9.33,
-        "trades": 23,
-        "calls": 15,
-        "puts": 8,
-        "totalPrem": 1474031,
-        "bullPrem": 946447,
-        "bearPrem": 484834,
-        "neutPrem": 42750,
-        "sweeps": 7,
-        "sweepPrem": 404204,
-        "bullCallPrem": 335257,
-        "bearCallPrem": 410874,
-        "bullPutPrem": 611190,
-        "bearPutPrem": 73960,
-        "avgCallStrike": 12.27,
-        "avgPutStrike": 16.06,
-        "trend": "bullish",
-        "summary": "Bucking the BTC miner selloff. Down -5.4% but bull premium leads 64% vs 33% bear. Bullish put-selling dominates: $611K at deep ITM strikes. Consistently improving bullish lean across 3 days \u2014 the only miner holding structure.",
-        "topTrades": [
-          {
-            "type": "CALL",
-            "strike": 11,
-            "exp": "Sep 18",
-            "prem": 136904,
-            "sent": "BEARISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "PUT",
-            "strike": 22,
-            "exp": "Mar 6",
-            "prem": 122700,
-            "sent": "BULLISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "PUT",
-            "strike": 8,
-            "exp": "Oct 4",
-            "prem": 110190,
-            "sent": "BULLISH",
-            "act": "SWEEP"
-          },
-          {
-            "type": "PUT",
-            "strike": 20,
-            "exp": "Mar 13",
-            "prem": 107700,
-            "sent": "BULLISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "PUT",
-            "strike": 20,
-            "exp": "Mar 13",
-            "prem": 107400,
-            "sent": "BULLISH",
-            "act": "TRADE"
-          }
-        ]
-      }
-    },
-    "SMR": {
-      "2026-03-05": {
-        "spot": 12.05,
-        "trades": 5,
-        "calls": 2,
-        "puts": 3,
-        "totalPrem": 944607,
-        "bullPrem": 871820,
-        "bearPrem": 72787,
-        "neutPrem": 0,
-        "sweeps": 2,
-        "sweepPrem": 126363,
-        "bullCallPrem": 101220,
-        "bearCallPrem": 47644,
-        "bullPutPrem": 770600,
-        "bearPutPrem": 25143,
-        "avgCallStrike": 20.5,
-        "avgPutStrike": 18.17,
-        "trend": "bullish",
-        "summary": "Stays bullish. 92% bull premium. $734K ATM put selling at $12 (Aug). Stock down -6% but flow not flinching. Consistent with Monday.",
-        "topTrades": [
-          {
-            "type": "PUT",
-            "strike": 12,
-            "exp": "Aug 21",
-            "prem": 733500,
-            "sent": "BULLISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "CALL",
-            "strike": 30,
-            "exp": "Jan 2028",
-            "prem": 101220,
-            "sent": "BULLISH",
-            "act": "SWEEP"
-          },
-          {
-            "type": "CALL",
-            "strike": 11,
-            "exp": "Mar 20",
-            "prem": 47644,
-            "sent": "BEARISH",
-            "act": "TRADE"
-          }
-        ]
-      },
-      "2026-03-03": {
-        "spot": 12.81,
-        "trades": 4,
-        "calls": 2,
-        "puts": 2,
-        "totalPrem": 815335,
-        "bullPrem": 815335,
-        "bearPrem": 0,
-        "neutPrem": 0,
-        "sweeps": 1,
-        "sweepPrem": 57015,
-        "bullCallPrem": 121665,
-        "bearCallPrem": 0,
-        "bullPutPrem": 693670,
-        "bearPutPrem": 0,
-        "avgCallStrike": 15.0,
-        "avgPutStrike": 52.5,
-        "trend": "bullish",
-        "summary": "100% bullish. $654K deep ITM put selling. Ultra-low volume but premium commitment meaningful.",
-        "topTrades": [
-          {
-            "type": "PUT",
-            "strike": 85,
-            "exp": "Jan 2028",
-            "prem": 653670,
-            "sent": "BULLISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "CALL",
-            "strike": 15,
-            "exp": "Jan 2027",
-            "prem": 64650,
-            "sent": "BULLISH",
-            "act": "TRADE"
-          }
-        ]
-      },
-      "2026-03-06": {
-        "spot": 11.7,
-        "trades": 23,
-        "calls": 7,
-        "puts": 16,
-        "totalPrem": 4078771,
-        "bullPrem": 2307900,
-        "bearPrem": 286271,
-        "neutPrem": 1484600,
-        "sweeps": 3,
-        "sweepPrem": 503571,
-        "bullCallPrem": 0,
-        "bearCallPrem": 202400,
-        "bullPutPrem": 2307900,
-        "bearPutPrem": 83871,
-        "avgCallStrike": 9.21,
-        "avgPutStrike": 35.72,
-        "trend": "bullish",
-        "summary": "Massively scaled up \u2014 premium +332% to $4.1M. All top trades deep ITM put sales at $44-65 (Mar 20) at bid. Bull premium 57%, bear negligible at 7%. 3 consecutive bullish days. Someone very committed to selling volatility here.",
-        "topTrades": [
-          {
-            "type": "PUT",
-            "strike": 65,
-            "exp": "Mar 20",
-            "prem": 532400,
-            "sent": "NEUTRAL",
-            "act": "TRADE"
-          },
-          {
-            "type": "PUT",
-            "strike": 47,
-            "exp": "Mar 20",
-            "prem": 352400,
-            "sent": "NEUTRAL",
-            "act": "TRADE"
-          },
-          {
-            "type": "PUT",
-            "strike": 44,
-            "exp": "Mar 20",
-            "prem": 322700,
-            "sent": "BULLISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "PUT",
-            "strike": 44,
-            "exp": "Mar 20",
-            "prem": 322100,
-            "sent": "NEUTRAL",
-            "act": "TRADE"
-          },
-          {
-            "type": "PUT",
-            "strike": 44,
-            "exp": "Mar 20",
-            "prem": 321500,
-            "sent": "BULLISH",
-            "act": "TRADE"
-          }
-        ]
-      }
-    },
-    "XLF": {
-      "2026-03-05": {
-        "spot": 51.24,
-        "trades": 44,
-        "calls": 12,
-        "puts": 32,
-        "totalPrem": 5172590,
-        "bullPrem": 1386099,
-        "bearPrem": 3758507,
-        "neutPrem": 27984,
-        "sweeps": 30,
-        "sweepPrem": 2006599,
-        "bullCallPrem": 384565,
-        "bearCallPrem": 1310989,
-        "bullPutPrem": 1001534,
-        "bearPutPrem": 2447518,
-        "avgCallStrike": 53.75,
-        "avgPutStrike": 48.5,
-        "trend": "bearish",
-        "summary": "New addition \u2014 heavily bearish. 73% bear premium, 73% puts. $970K call selling at $54 + $828K put buying at $50. Classic risk-off combo for financials. Combined with HYG hedging = macro caution toward financial sector.",
-        "topTrades": [
-          {
-            "type": "CALL",
-            "strike": 54,
-            "exp": "Jun 18",
-            "prem": 970000,
-            "sent": "BEARISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "PUT",
-            "strike": 50,
-            "exp": "Jun 30",
-            "prem": 828000,
-            "sent": "BEARISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "PUT",
-            "strike": 48,
-            "exp": "Jul 17",
-            "prem": 438000,
-            "sent": "BULLISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "CALL",
-            "strike": 55,
-            "exp": "Jun 18",
-            "prem": 350000,
-            "sent": "BULLISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "PUT",
-            "strike": 49,
-            "exp": "Mar 20",
-            "prem": 195000,
-            "sent": "BEARISH",
-            "act": "TRADE"
-          }
-        ]
-      }
-    },
-    "HIVE": {
-      "2026-03-05": {
-        "spot": 2.27,
-        "trades": 1,
-        "calls": 1,
-        "puts": 0,
-        "totalPrem": 38696,
-        "bullPrem": 38696,
-        "bearPrem": 0,
-        "neutPrem": 0,
-        "sweeps": 1,
-        "sweepPrem": 38696,
-        "bullCallPrem": 38696,
-        "bearCallPrem": 0,
-        "bullPutPrem": 0,
-        "bearPutPrem": 0,
-        "avgCallStrike": 3.0,
-        "avgPutStrike": 0,
-        "trend": "bullish",
-        "summary": "Single bullish call sweep at $3 (Jan '27). Immaterial as standalone signal.",
-        "topTrades": [
-          {
-            "type": "CALL",
-            "strike": 3,
-            "exp": "Jan 2027",
-            "prem": 38696,
-            "sent": "BULLISH",
-            "act": "SWEEP"
-          }
-        ]
-      }
-    },
-    "TSM": {
-      "2026-03-06": {
-        "spot": 338.26,
-        "trades": 120,
-        "calls": 36,
-        "puts": 84,
-        "totalPrem": 16102498,
-        "bullPrem": 9840029,
-        "bearPrem": 4987873,
-        "neutPrem": 1274597,
-        "sweeps": 55,
-        "sweepPrem": 5087922,
-        "bullCallPrem": 1265378,
-        "bearCallPrem": 824304,
-        "bullPutPrem": 8574651,
-        "bearPutPrem": 4163569,
-        "avgCallStrike": 347.71,
-        "avgPutStrike": 328.07,
-        "trend": "bullish",
-        "summary": "New \u2014 heavily bullish at 61% despite 70% put volume. Massive ITM put selling: $5.4M + $562K + $537K at $360 (today's expiry) executed BELOW bid. Bullish put premium ($8.6M) dwarfs bearish ($4.2M). Smart money selling puts into semiconductor weakness.",
-        "topTrades": [
-          {
-            "type": "PUT",
-            "strike": 360,
-            "exp": "Mar 6",
-            "prem": 5375760,
-            "sent": "BULLISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "PUT",
-            "strike": 340,
-            "exp": "Sep 18",
-            "prem": 630000,
-            "sent": "BEARISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "PUT",
-            "strike": 360,
-            "exp": "Mar 6",
-            "prem": 561600,
-            "sent": "BULLISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "PUT",
-            "strike": 360,
-            "exp": "Mar 6",
-            "prem": 536640,
-            "sent": "BULLISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "CALL",
-            "strike": 330,
-            "exp": "Oct 16",
-            "prem": 501960,
-            "sent": "BULLISH",
-            "act": "TRADE"
-          }
-        ]
-      }
-    },
-    "TSLA": {
-      "2026-03-06": {
-        "spot": 396.76,
-        "trades": 93,
-        "calls": 40,
-        "puts": 53,
-        "totalPrem": 5260545,
-        "bullPrem": 2239948,
-        "bearPrem": 2352150,
-        "neutPrem": 668447,
-        "sweeps": 63,
-        "sweepPrem": 3662485,
-        "bullCallPrem": 791461,
-        "bearCallPrem": 1169280,
-        "bullPutPrem": 1448487,
-        "bearPutPrem": 1182870,
-        "avgCallStrike": 396.19,
-        "avgPutStrike": 404.67,
-        "trend": "mixed",
-        "summary": "New \u2014 dead even. 43% bull vs 45% bear. 68% sweeps but no clear direction. Bearish call premium ($1.2M) edges bullish ($791K). Bullish put premium ($1.4M) edges bearish ($1.2M). Strikes tightly clustered around spot. Wait-and-see mode.",
-        "topTrades": [
-          {
-            "type": "PUT",
-            "strike": 390,
-            "exp": "Mar 20",
-            "prem": 336600,
-            "sent": "BULLISH",
-            "act": "SWEEP"
-          },
-          {
-            "type": "CALL",
-            "strike": 405,
-            "exp": "Mar 9",
-            "prem": 259800,
-            "sent": "BULLISH",
-            "act": "SWEEP"
-          },
-          {
-            "type": "PUT",
-            "strike": 410,
-            "exp": "Mar 20",
-            "prem": 213000,
-            "sent": "NEUTRAL",
-            "act": "TRADE"
-          },
-          {
-            "type": "CALL",
-            "strike": 398,
-            "exp": "Mar 6",
-            "prem": 178433,
-            "sent": "BEARISH",
-            "act": "SWEEP"
-          },
-          {
-            "type": "PUT",
-            "strike": 400,
-            "exp": "Mar 6",
-            "prem": 176346,
-            "sent": "BEARISH",
-            "act": "SWEEP"
-          }
-        ]
-      }
-    },
-    "GOOGL": {
-      "2026-03-06": {
-        "spot": 298.74,
-        "trades": 59,
-        "calls": 46,
-        "puts": 13,
-        "totalPrem": 4119573,
-        "bullPrem": 2116856,
-        "bearPrem": 1739596,
-        "neutPrem": 263121,
-        "sweeps": 22,
-        "sweepPrem": 1484985,
-        "bullCallPrem": 1756183,
-        "bearCallPrem": 1411842,
-        "bullPutPrem": 360673,
-        "bearPutPrem": 327754,
-        "avgCallStrike": 255.71,
-        "avgPutStrike": 286.15,
-        "trend": "mixed",
-        "summary": "New \u2014 leaning bullish at 51% vs 42% bear. $589K bullish LEAPS call at $325 (Jan '28) and $427K deep ITM call at $240 (Apr) are conviction trades. 78% calls. Bearish sweeps outnumber bullish (13 vs 9). Structurally bullish but near-term contested.",
-        "topTrades": [
-          {
-            "type": "CALL",
-            "strike": 325,
-            "exp": "Jan 2028",
-            "prem": 588500,
-            "sent": "BULLISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "CALL",
-            "strike": 240,
-            "exp": "Apr 17",
-            "prem": 427000,
-            "sent": "BULLISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "CALL",
-            "strike": 305,
-            "exp": "Apr 2",
-            "prem": 149538,
-            "sent": "BEARISH",
-            "act": "SWEEP"
-          },
-          {
-            "type": "CALL",
-            "strike": 290,
-            "exp": "May 15",
-            "prem": 128770,
-            "sent": "BEARISH",
-            "act": "SWEEP"
-          },
-          {
-            "type": "CALL",
-            "strike": 290,
-            "exp": "May 15",
-            "prem": 128750,
-            "sent": "BEARISH",
-            "act": "SWEEP"
-          }
-        ]
-      }
-    },
-    "AAPL": {
-      "2026-03-06": {
-        "spot": 257.76,
-        "trades": 36,
-        "calls": 18,
-        "puts": 18,
-        "totalPrem": 2537878,
-        "bullPrem": 1266096,
-        "bearPrem": 835495,
-        "neutPrem": 436288,
-        "sweeps": 22,
-        "sweepPrem": 1737333,
-        "bullCallPrem": 341256,
-        "bearCallPrem": 462495,
-        "bullPutPrem": 924840,
-        "bearPutPrem": 373000,
-        "avgCallStrike": 261.39,
-        "avgPutStrike": 255.14,
-        "trend": "mixed",
-        "summary": "New \u2014 tilting bullish at 50% vs 33% bear. $483K bullish put sweep at $260 (Jul) is largest trade. Bullish put premium ($925K) leads bearish ($373K) \u2014 put-selling income strategies. Call side more contested. Slight bullish lean from put-selling.",
-        "topTrades": [
-          {
-            "type": "PUT",
-            "strike": 260,
-            "exp": "Jul 17",
-            "prem": 482800,
-            "sent": "BULLISH",
-            "act": "SWEEP"
-          },
-          {
-            "type": "CALL",
-            "strike": 260,
-            "exp": "Apr 2",
-            "prem": 206720,
-            "sent": "BEARISH",
-            "act": "SWEEP"
-          },
-          {
-            "type": "PUT",
-            "strike": 255,
-            "exp": "Apr 17",
-            "prem": 155700,
-            "sent": "BEARISH",
-            "act": "SWEEP"
-          },
-          {
-            "type": "CALL",
-            "strike": 270,
-            "exp": "Jun 18",
-            "prem": 112100,
-            "sent": "BULLISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "PUT",
-            "strike": 245,
-            "exp": "Apr 17",
-            "prem": 110400,
-            "sent": "BULLISH",
-            "act": "TRADE"
-          }
-        ]
-      }
-    },
-    "IBIT": {
-      "2026-03-06": {
-        "spot": 38.6,
-        "trades": 152,
-        "calls": 90,
-        "puts": 62,
-        "totalPrem": 10768908,
-        "bullPrem": 4016055,
-        "bearPrem": 6106268,
-        "neutPrem": 646585,
-        "sweeps": 97,
-        "sweepPrem": 7000000,
-        "bullCallPrem": 2774954,
-        "bearCallPrem": 2484745,
-        "bullPutPrem": 1241101,
-        "bearPutPrem": 3621524,
-        "avgCallStrike": 40.12,
-        "avgPutStrike": 38.22,
-        "trend": "bearish",
-        "summary": "Bitcoin ETF persistently bearish \u2014 57% bear all week. Friday shifted from call-selling to directional put-buying: $992K at $37 (Apr), $401K at $31 (May), $331K at $31 (Jun). Bears went from capping upside to actively betting on downside. 64% sweeps. Aligns with BTC miner carnage.",
-        "topTrades": [
-          {
-            "type": "PUT",
-            "strike": 37,
-            "exp": "Apr 17",
-            "prem": 992000,
-            "sent": "BEARISH",
-            "act": "SWEEP"
-          },
-          {
-            "type": "PUT",
-            "strike": 31,
-            "exp": "May 15",
-            "prem": 401250,
-            "sent": "BEARISH",
-            "act": "SWEEP"
-          },
-          {
-            "type": "PUT",
-            "strike": 31,
-            "exp": "Jun 18",
-            "prem": 331398,
-            "sent": "BEARISH",
-            "act": "SWEEP"
-          },
-          {
-            "type": "CALL",
-            "strike": 100,
-            "exp": "Jan 2028",
-            "prem": 283409,
-            "sent": "BEARISH",
-            "act": "SWEEP"
-          }
-        ]
-      }
-    },
-    "ETHA": {
-      "2026-03-06": {
-        "spot": 14.95,
-        "trades": 42,
-        "calls": 28,
-        "puts": 14,
-        "totalPrem": 2786886,
-        "bullPrem": 1660308,
-        "bearPrem": 854553,
-        "neutPrem": 272025,
-        "sweeps": 15,
-        "sweepPrem": 900000,
-        "bullCallPrem": 1502495,
-        "bearCallPrem": 465781,
-        "bullPutPrem": 157813,
-        "bearPutPrem": 388772,
-        "avgCallStrike": 14.61,
-        "avgPutStrike": 14.49,
-        "trend": "bullish",
-        "summary": "Ethereum ETF diverging bullish from IBIT. 60% bull despite -5.6% drop. $405K LEAPS call at $15 and $253K at $20 (Jan '27) show long-term conviction. Bullish call premium ($1.5M) triples bearish. ETH finding its own bid while BTC stays bearish.",
-        "topTrades": [
-          {
-            "type": "CALL",
-            "strike": 15,
-            "exp": "Jan 2027",
-            "prem": 405000,
-            "sent": "BULLISH",
-            "act": "SWEEP"
-          },
-          {
-            "type": "CALL",
-            "strike": 20,
-            "exp": "Jan 2027",
-            "prem": 253000,
-            "sent": "BULLISH",
-            "act": "TRADE"
-          },
-          {
-            "type": "CALL",
-            "strike": 15,
-            "exp": "Apr 17",
-            "prem": 126319,
-            "sent": "BEARISH",
-            "act": "SWEEP"
-          }
-        ]
-      }
-    }
-  }
+import { useState } from "react";
+
+const data = {
+  NVDA: {
+    spot: 184.67, spotPrev: 177.95, trades: 374, tradesPrev: 150,
+    totalPrem: 45225464, totalPremPrev: 18127955,
+    bullPrem: 21692649, bearPrem: 18412631, neutPrem: 5120183,
+    bullPremPrev: 9404501, bearPremPrev: 7123884,
+    calls: 212, puts: 162, sweeps: 236, sweepPrem: 34210184,
+    bullCallPrem: 14424857, bearCallPrem: 9084888, bullPutPrem: 7267792, bearPutPrem: 9327743,
+    avgCallStrike: 173.36, avgPutStrike: 209.08,
+    topTrades: [
+      { type: "CALL", strike: 26, exp: "Dec 18", prem: 2413289, sent: "NEUTRAL", act: "SWEEP" },
+      { type: "CALL", strike: 30, exp: "Dec 2028", prem: 2387297, sent: "BEARISH", act: "SWEEP" },
+      { type: "CALL", strike: 182, exp: "Mar 13", prem: 1822925, sent: "BULLISH", act: "SWEEP" },
+      { type: "PUT", strike: 188, exp: "Mar 13", prem: 1703567, sent: "BULLISH", act: "SWEEP" },
+      { type: "CALL", strike: 185, exp: "Mar 13", prem: 1553310, sent: "BULLISH", act: "SWEEP" },
+    ],
+    trend: "bullish", trendPrev: "bullish",
+    summary: "Massive day. Premium exploded +149% to $45.2M — largest NVDA flow we've tracked. Spot rallied +3.8% and bulls lead 48% vs 41%. Bullish call premium ($14.4M) dominates bearish ($9.1M). The $1.8M call sweep at $182 ABOVE ASK and $1.6M at $185 show aggressive urgency. $1.7M bullish put sweep at $188 (selling puts at bid into strength). Deep ITM LEAPS sweeps ($2.4M at $26, $2.4M at $30) suggest large structured/delta positions. 63% sweeps, 114 bullish vs 104 bearish. Continues Friday's bullish flip with far more conviction."
+  },
+  GLD: {
+    spot: 477.52, spotPrev: 474.63, trades: 217, tradesPrev: 269,
+    totalPrem: 25438619, totalPremPrev: 20753065,
+    bullPrem: 8129907, bearPrem: 11164333, neutPrem: 6144378,
+    bullPremPrev: 7579037, bearPremPrev: 7014570,
+    calls: 169, puts: 48, sweeps: 60, sweepPrem: 10577779,
+    bullCallPrem: 6256518, bearCallPrem: 9715426, bullPutPrem: 1873390, bearPutPrem: 1448907,
+    avgCallStrike: 486.31, avgPutStrike: 472.06,
+    topTrades: [
+      { type: "CALL", strike: 550, exp: "Jan 2027", prem: 2920726, sent: "NEUTRAL", act: "SWEEP" },
+      { type: "CALL", strike: 550, exp: "Jan 2027", prem: 1078007, sent: "BULLISH", act: "SWEEP" },
+      { type: "CALL", strike: 480, exp: "Jul 17", prem: 938450, sent: "BEARISH", act: "TRADE" },
+      { type: "PUT", strike: 440, exp: "Jan 2027", prem: 710400, sent: "BULLISH", act: "TRADE" },
+      { type: "CALL", strike: 475, exp: "Mar 2027", prem: 603900, sent: "BEARISH", act: "TRADE" },
+    ],
+    trend: "bearish", trendPrev: "mixed",
+    summary: "Turned bearish for first time. Spot at new high $477.52 but bearish premium surged to 44% vs 32% bull. Bearish call premium ($9.7M) far exceeds bullish ($6.3M) — heavy call selling into the rally. The $2.9M neutral and $1.1M bullish sweeps at $550 (Jan '27) are 15% OTM LEAPS, speculative. But the $938K bearish call at $480 (Jul) and $604K at $475 (Mar '27) are near-the-money sells. Premium up +23%. Gold may be topping — sellers emerging at these levels."
+  },
+  IREN: {
+    spot: 38.07, spotPrev: 36.99, trades: 174, tradesPrev: 198,
+    totalPrem: 20586255, totalPremPrev: 21806650,
+    bullPrem: 11745952, bearPrem: 8161087, neutPrem: 679216,
+    bullPremPrev: 12023454, bearPremPrev: 7853557,
+    calls: 111, puts: 63, sweeps: 83, sweepPrem: 9140665,
+    bullCallPrem: 3850916, bearCallPrem: 3411889, bullPutPrem: 7895037, bearPutPrem: 4749198,
+    avgCallStrike: 46.14, avgPutStrike: 45.48,
+    topTrades: [
+      { type: "PUT", strike: 34, exp: "Jul 17", prem: 3072000, sent: "BULLISH", act: "TRADE" },
+      { type: "PUT", strike: 34, exp: "Jul 17", prem: 792000, sent: "BULLISH", act: "TRADE" },
+      { type: "PUT", strike: 34, exp: "Jul 17", prem: 768000, sent: "BULLISH", act: "TRADE" },
+      { type: "PUT", strike: 110, exp: "Jan 2028", prem: 760000, sent: "BEARISH", act: "TRADE" },
+      { type: "PUT", strike: 34, exp: "Jul 17", prem: 640000, sent: "BULLISH", act: "TRADE" },
+    ],
+    trend: "bullish", trendPrev: "bullish",
+    summary: "Steady bullish conviction — 57% bull, 2nd straight day. Spot +2.9%. The $34 put-selling machine continues: $3.07M + $792K + $768K + $640K = $5.3M in bullish puts at $34 (Jul). Bullish put premium ($7.9M) dominates. Call side tighter ($3.9M bull vs $3.4M bear). $20.6M total keeps IREN as one of the highest-premium names in the universe."
+  },
+  SLV: {
+    spot: 80.11, spotPrev: 76.00, trades: 138, tradesPrev: 130,
+    totalPrem: 13719722, totalPremPrev: 17244234,
+    bullPrem: 6257655, bearPrem: 5342240, neutPrem: 2119827,
+    bullPremPrev: 7959732, bearPremPrev: 5454473,
+    calls: 101, puts: 37, sweeps: 51, sweepPrem: 4467634,
+    bullCallPrem: 5276754, bearCallPrem: 4024764, bullPutPrem: 980901, bearPutPrem: 1317476,
+    avgCallStrike: 93.27, avgPutStrike: 84.00,
+    topTrades: [
+      { type: "CALL", strike: 30, exp: "Jan 2027", prem: 1015000, sent: "BULLISH", act: "TRADE" },
+      { type: "CALL", strike: 160, exp: "Jan 2027", prem: 735000, sent: "BULLISH", act: "SWEEP" },
+      { type: "CALL", strike: 77, exp: "Jun 18", prem: 705000, sent: "BULLISH", act: "TRADE" },
+      { type: "CALL", strike: 110, exp: "Jun 18", prem: 570000, sent: "BEARISH", act: "TRADE" },
+      { type: "CALL", strike: 30, exp: "Jan 2027", prem: 518500, sent: "NEUTRAL", act: "TRADE" },
+    ],
+    trend: "bullish", trendPrev: "bullish",
+    summary: "Silver ripping — spot surged +5.4% to $80.11. Bull premium leads 46% vs 39%. The $1.0M deep ITM LEAPS call at $30 (Jan '27) and $735K at $160 show wide-range bullish positioning. $705K near-the-money call at $77 (Jun). Avg call strike at $93 (+15% OTM) suggests traders see much more upside. 73% calls. Bear sweeps (29) outnumber bullish (15) but premium tells the bullish story. Silver bulls not flinching."
+  },
+  CIFR: {
+    spot: 13.79, spotPrev: 13.63, trades: 153, tradesPrev: 152,
+    totalPrem: 11043521, totalPremPrev: 11280344,
+    bullPrem: 6742811, bearPrem: 3388413, neutPrem: 912297,
+    bullPremPrev: 5044836, bearPremPrev: 5500258,
+    calls: 95, puts: 58, sweeps: 80, sweepPrem: 4692690,
+    bullCallPrem: 3111248, bearCallPrem: 1972922, bullPutPrem: 3631564, bearPutPrem: 1415491,
+    avgCallStrike: 13.99, avgPutStrike: 20.41,
+    topTrades: [
+      { type: "PUT", strike: 32, exp: "Mar 13", prem: 273600, sent: "BULLISH", act: "TRADE" },
+      { type: "PUT", strike: 32, exp: "Mar 13", prem: 273300, sent: "BULLISH", act: "TRADE" },
+      { type: "PUT", strike: 30, exp: "Mar 20", prem: 243600, sent: "BULLISH", act: "TRADE" },
+      { type: "CALL", strike: 12, exp: "Mar 20", prem: 229500, sent: "BEARISH", act: "TRADE" },
+      { type: "PUT", strike: 29, exp: "Mar 13", prem: 229050, sent: "BULLISH", act: "TRADE" },
+    ],
+    trend: "bullish", trendPrev: "bearish",
+    summary: "Snapped back bullish. Bull premium surged from 45% → 61%, bear collapsed 49% → 31%. The top 3 trades are all bullish put-selling at deep ITM strikes ($29-32), collecting premium. Bullish sweep count (45) dominates bearish (28). CIFR has whipsawed: mixed → bullish → bearish → bullish in 4 sessions. Today's put-selling pattern is the strongest bullish structure yet."
+  },
+  IBIT: {
+    spot: 39.73, spotPrev: 38.60, trades: 95, tradesPrev: 152,
+    totalPrem: 6648185, totalPremPrev: 10768908,
+    bullPrem: 2616641, bearPrem: 3038079, neutPrem: 993465,
+    bullPremPrev: 4016055, bearPremPrev: 6106268,
+    calls: 64, puts: 31, sweeps: 47, sweepPrem: 3113617,
+    bullCallPrem: 1928269, bearCallPrem: 1378465, bullPutPrem: 688372, bearPutPrem: 1659614,
+    avgCallStrike: 40.37, avgPutStrike: 39.73,
+    topTrades: [
+      { type: "PUT", strike: 80, exp: "Jun 2027", prem: 600000, sent: "BEARISH", act: "TRADE" },
+      { type: "CALL", strike: 30, exp: "Jan 2027", prem: 401410, sent: "BULLISH", act: "TRADE" },
+      { type: "PUT", strike: 37, exp: "Jun 18", prem: 251600, sent: "BEARISH", act: "SWEEP" },
+      { type: "PUT", strike: 40, exp: "Mar 20", prem: 186000, sent: "BULLISH", act: "SWEEP" },
+      { type: "CALL", strike: 42, exp: "Mar 20", prem: 143438, sent: "BEARISH", act: "SWEEP" },
+    ],
+    trend: "mixed", trendPrev: "bearish",
+    summary: "Bear grip easing. Spot +2.9%, bear premium dropped from 57% → 46%, bull rose 37% → 39%. Call flow flipped bullish ($1.9M vs $1.4M bear) for the first time. But put-side still bearish ($1.7M vs $688K). The $600K bearish put at $80 (Jun '27) is deep ITM, likely structured. The $401K bullish LEAPS call at $30 (Jan '27) is the conviction bull trade. Premium down -38% with fewer trades — pressure reducing. No longer relentlessly bearish, but not bullish yet."
+  },
+  WULF: {
+    spot: 14.46, spotPrev: 13.74, trades: 77, tradesPrev: 52,
+    totalPrem: 6540180, totalPremPrev: 4404686,
+    bullPrem: 3152204, bearPrem: 2995010, neutPrem: 392967,
+    bullPremPrev: 1772998, bearPremPrev: 2415589,
+    calls: 39, puts: 38, sweeps: 45, sweepPrem: 3956596,
+    bullCallPrem: 1407369, bearCallPrem: 1119956, bullPutPrem: 1744835, bearPutPrem: 1875054,
+    avgCallStrike: 17.96, avgPutStrike: 15.00,
+    topTrades: [
+      { type: "PUT", strike: 15, exp: "Mar 20", prem: 769099, sent: "BEARISH", act: "SWEEP" },
+      { type: "CALL", strike: 22, exp: "Aug 21", prem: 325000, sent: "BEARISH", act: "TRADE" },
+      { type: "CALL", strike: 27, exp: "Jan 2027", prem: 237500, sent: "NEUTRAL", act: "TRADE" },
+      { type: "CALL", strike: 15, exp: "Apr 17", prem: 202713, sent: "BULLISH", act: "SWEEP" },
+      { type: "PUT", strike: 10, exp: "Apr 24", prem: 189157, sent: "BULLISH", act: "SWEEP" },
+    ],
+    trend: "mixed", trendPrev: "bearish",
+    summary: "Recovering from 2-day bear streak. Spot +5.2%, bull premium improved 40% → 48%, bear dropped 55% → 46%. Premium up +48%. Now nearly even — 50/50 call/put split, sweeps evenly split (21/21). The $769K bearish put at $15 (Mar 20) is ATM, the bear anchor. But bullish call sweep at $15 (Apr) and bullish put sweep at $10 (Apr) show dip-buyers stepping in. No longer bearish but not yet bullish — transitioning."
+  },
+  XLF: {
+    spot: 50.17, spotPrev: null, trades: 32, tradesPrev: 0,
+    totalPrem: 4404874, totalPremPrev: 0,
+    bullPrem: 3794275, bearPrem: 610599, neutPrem: 0,
+    bullPremPrev: 0, bearPremPrev: 0,
+    calls: 6, puts: 26, sweeps: 23, sweepPrem: 1130099,
+    bullCallPrem: 199517, bearCallPrem: 156465, bullPutPrem: 3594758, bearPutPrem: 454134,
+    avgCallStrike: 52.25, avgPutStrike: 47.00,
+    topTrades: [
+      { type: "PUT", strike: 46, exp: "Dec 18", prem: 2575000, sent: "BULLISH", act: "TRADE" },
+      { type: "PUT", strike: 50, exp: "Sep 18", prem: 371000, sent: "BULLISH", act: "TRADE" },
+      { type: "CALL", strike: 52, exp: "Jun 18", prem: 138100, sent: "BULLISH", act: "SWEEP" },
+      { type: "CALL", strike: 55, exp: "Jun 18", prem: 98154, sent: "BEARISH", act: "SWEEP" },
+      { type: "PUT", strike: 48, exp: "Apr 17", prem: 96000, sent: "BEARISH", act: "TRADE" },
+    ],
+    trend: "bullish", trendPrev: null,
+    summary: "Complete reversal from last week's 73% bearish. Now 86% bullish, dominated by the $2.58M bullish put at $46 (Dec) — massive ITM put-selling. $371K bullish put at $50 (Sep). Bullish put premium ($3.6M) dwarfs everything else. Financials went from risk-off to income-generating bullish positioning in one session."
+  },
+  RIOT: {
+    spot: 14.83, spotPrev: 14.12, trades: 70, tradesPrev: 75,
+    totalPrem: 4481256, totalPremPrev: 3995964,
+    bullPrem: 2507688, bearPrem: 1842042, neutPrem: 131525,
+    bullPremPrev: 1857544, bearPremPrev: 2056236,
+    calls: 35, puts: 35, sweeps: 22, sweepPrem: 1231039,
+    bullCallPrem: 907560, bearCallPrem: 726694, bullPutPrem: 1600128, bearPutPrem: 1115348,
+    avgCallStrike: 13.73, avgPutStrike: 21.17,
+    topTrades: [
+      { type: "PUT", strike: 34, exp: "Mar 20", prem: 192400, sent: "BULLISH", act: "TRADE" },
+      { type: "PUT", strike: 34, exp: "Mar 20", prem: 192000, sent: "BULLISH", act: "TRADE" },
+      { type: "CALL", strike: 15, exp: "Apr 2", prem: 180495, sent: "BULLISH", act: "SWEEP" },
+      { type: "CALL", strike: 14, exp: "Mar 27", prem: 158210, sent: "BULLISH", act: "SWEEP" },
+      { type: "PUT", strike: 30, exp: "Mar 13", prem: 157400, sent: "BULLISH", act: "TRADE" },
+    ],
+    trend: "bullish", trendPrev: "mixed",
+    summary: "Bounced back bullish. Spot +5%, bull premium 56% vs 41% bear, recovering from Friday's crack (46/51). Top 5 trades ALL bullish. Deep ITM put-selling at $30-34 plus bullish call sweeps at $14-15. The classic RIOT playbook is back — put-selling income + near-the-money call buying."
+  },
+  HIMS: {
+    spot: 23.52, spotPrev: 15.76, trades: 51, tradesPrev: 10,
+    totalPrem: 3389758, totalPremPrev: 1090729,
+    bullPrem: 1773148, bearPrem: 1026197, neutPrem: 590414,
+    bullPremPrev: 303007, bearPremPrev: 693960,
+    calls: 41, puts: 10, sweeps: 30, sweepPrem: 1993741,
+    bullCallPrem: 1551611, bearCallPrem: 865844, bullPutPrem: 221537, bearPutPrem: 160353,
+    avgCallStrike: 24.89, avgPutStrike: 22.60,
+    topTrades: [
+      { type: "CALL", strike: 25, exp: "Mar 13", prem: 326820, sent: "BULLISH", act: "TRADE" },
+      { type: "CALL", strike: 15, exp: "Jan 2028", prem: 226054, sent: "NEUTRAL", act: "SWEEP" },
+      { type: "CALL", strike: 16, exp: "Jul 17", prem: 175000, sent: "BULLISH", act: "TRADE" },
+      { type: "PUT", strike: 22, exp: "May 15", prem: 153650, sent: "NEUTRAL", act: "SWEEP" },
+      { type: "CALL", strike: 25, exp: "Mar 20", prem: 144900, sent: "BEARISH", act: "SWEEP" },
+    ],
+    trend: "bullish", trendPrev: "bearish",
+    summary: "Massive gap up +49.3%. Premium surged +211% to $3.4M. Bull premium flipped from 28% → 52%. 80% calls, mostly bullish ($1.6M vs $866K bear). The $327K bullish call at $25 (Mar 13) is near-the-money buying into the move. $175K deep ITM call at $16 (Jul) adds delta. Complete reversal from last week's bearish grind — whatever drove the gap (earnings? FDA?) has completely reset the options landscape."
+  },
+  OKLO: {
+    spot: 61.40, spotPrev: null, trades: 43, tradesPrev: 0,
+    totalPrem: 1921513, totalPremPrev: 0,
+    bullPrem: 601553, bearPrem: 914850, neutPrem: 405111,
+    bullPremPrev: 0, bearPremPrev: 0,
+    calls: 30, puts: 13, sweeps: 15, sweepPrem: 735382,
+    bullCallPrem: 514103, bearCallPrem: 441262, bullPutPrem: 87450, bearPutPrem: 473587,
+    avgCallStrike: 95.90, avgPutStrike: 70.85,
+    topTrades: [
+      { type: "CALL", strike: 70, exp: "Jun 18", prem: 87220, sent: "BULLISH", act: "SWEEP" },
+      { type: "CALL", strike: 60, exp: "Jan 2027", prem: 87160, sent: "NEUTRAL", act: "SWEEP" },
+      { type: "CALL", strike: 68, exp: "Mar 13", prem: 75144, sent: "BULLISH", act: "SWEEP" },
+      { type: "PUT", strike: 80, exp: "May 15", prem: 71040, sent: "BEARISH", act: "TRADE" },
+      { type: "CALL", strike: 65, exp: "Mar 20", prem: 67805, sent: "BULLISH", act: "TRADE" },
+    ],
+    trend: "bearish", trendPrev: null,
+    summary: "Returns to the dataset — bearish lean at 48% vs 31% bull. 70% calls but avg strike at $95.90 (+53% OTM) — far-OTM speculative. Bearish sweeps dominate (9 vs 4 bullish). $473K bearish put premium vs $87K bullish. Modest total premium at $1.9M. Nuclear name still seeing more skepticism than conviction."
+  },
+  ETHA: {
+    spot: 15.39, spotPrev: 14.95, trades: 14, tradesPrev: 42,
+    totalPrem: 710819, totalPremPrev: 2786886,
+    bullPrem: 286375, bearPrem: 307904, neutPrem: 116540,
+    bullPremPrev: 1660308, bearPremPrev: 854553,
+    calls: 9, puts: 5, sweeps: 6, sweepPrem: 290103,
+    bullCallPrem: 106366, bearCallPrem: 278904, bullPutPrem: 180009, bearPutPrem: 29000,
+    avgCallStrike: 13.00, avgPutStrike: 13.90,
+    topTrades: [
+      { type: "PUT", strike: 14, exp: "Apr 2", prem: 114900, sent: "BULLISH", act: "SWEEP" },
+      { type: "CALL", strike: 8, exp: "Sep 18", prem: 83500, sent: "NEUTRAL", act: "TRADE" },
+      { type: "CALL", strike: 15, exp: "Jun 2028", prem: 72500, sent: "BULLISH", act: "TRADE" },
+    ],
+    trend: "mixed", trendPrev: "bullish",
+    summary: "Cooled from Friday's bullish conviction. Premium collapsed -74% to $711K with just 14 trades. Bear now slightly leads 43% vs 40%. Bearish call premium ($279K) exceeds bullish ($106K). The LEAPS buying from Friday hasn't repeated. Low volume limits read — more like a pause than a reversal."
+  },
+  EOSE: {
+    spot: 6.53, spotPrev: 6.23, trades: 15, tradesPrev: 9,
+    totalPrem: 842561, totalPremPrev: 828496,
+    bullPrem: 450639, bearPrem: 250106, neutPrem: 141816,
+    bullPremPrev: 89000, bearPremPrev: 739496,
+    calls: 12, puts: 3, sweeps: 5, sweepPrem: 230107,
+    bullCallPrem: 388964, bearCallPrem: 38500, bullPutPrem: 61675, bearPutPrem: 211606,
+    avgCallStrike: 10.25, avgPutStrike: 7.83,
+    topTrades: [
+      { type: "PUT", strike: 12, exp: "Jan 2027", prem: 151000, sent: "BEARISH", act: "TRADE" },
+      { type: "CALL", strike: 5, exp: "Jan 2027", prem: 93000, sent: "NEUTRAL", act: "TRADE" },
+      { type: "CALL", strike: 12, exp: "Jan 2027", prem: 67500, sent: "BULLISH", act: "TRADE" },
+    ],
+    trend: "bullish", trendPrev: "bearish",
+    summary: "Reversed from last week's 89% bearish to 53% bullish. Spot +4.7%. Bullish call premium ($389K) overwhelms bearish ($39K). The relentless LEAPS call-selling from Friday stopped. Low volume but the directional flip is real."
+  },
+  SMR: {
+    spot: 12.33, spotPrev: 11.70, trades: 17, tradesPrev: 23,
+    totalPrem: 1173130, totalPremPrev: 4078771,
+    bullPrem: 442571, bearPrem: 730559, neutPrem: 0,
+    bullPremPrev: 2307900, bearPremPrev: 286271,
+    calls: 13, puts: 4, sweeps: 14, sweepPrem: 1040230,
+    bullCallPrem: 442571, bearCallPrem: 339064, bullPutPrem: 0, bearPutPrem: 391495,
+    avgCallStrike: 15.46, avgPutStrike: 10.75,
+    topTrades: [
+      { type: "PUT", strike: 10, exp: "Jan 2027", prem: 221250, sent: "BEARISH", act: "SWEEP" },
+      { type: "CALL", strike: 12, exp: "Mar 20", prem: 104720, sent: "BULLISH", act: "SWEEP" },
+      { type: "PUT", strike: 12, exp: "Apr 2", prem: 104247, sent: "BEARISH", act: "SWEEP" },
+      { type: "CALL", strike: 7, exp: "Jan 2027", prem: 101500, sent: "BEARISH", act: "SWEEP" },
+      { type: "CALL", strike: 85, exp: "Jan 2028", prem: 98499, sent: "BULLISH", act: "SWEEP" },
+    ],
+    trend: "bearish", trendPrev: "bullish",
+    summary: "Flipped bearish after 3 bullish days. Bear premium 62% vs 38% bull. Premium down -71%. The $221K bearish LEAPS put at $10 (Jan '27) and $104K bearish put at $12 (Apr) are directional downside bets. Friday's massive ITM put-selling has stopped. 82% sweeps but majority bearish. The vol-selling income strategy that defined SMR all week has been replaced by directional bears."
+  },
+  CLSK: {
+    spot: 9.57, spotPrev: 9.33, trades: 26, tradesPrev: 23,
+    totalPrem: 1573188, totalPremPrev: 1474031,
+    bullPrem: 935530, bearPrem: 525658, neutPrem: 112000,
+    bullPremPrev: 946447, bearPremPrev: 484834,
+    calls: 17, puts: 9, sweeps: 17, sweepPrem: 1066150,
+    bullCallPrem: 240750, bearCallPrem: 442426, bullPutPrem: 694780, bearPutPrem: 83232,
+    avgCallStrike: 8.79, avgPutStrike: 9.89,
+    topTrades: [
+      { type: "PUT", strike: 8, exp: "Apr 24", prem: 260420, sent: "BULLISH", act: "SWEEP" },
+      { type: "PUT", strike: 12, exp: "Jan 2027", prem: 118175, sent: "BULLISH", act: "SWEEP" },
+      { type: "PUT", strike: 20, exp: "Mar 13", prem: 107700, sent: "BULLISH", act: "TRADE" },
+      { type: "PUT", strike: 20, exp: "Mar 13", prem: 107400, sent: "BULLISH", act: "TRADE" },
+      { type: "CALL", strike: 13, exp: "Oct 4", prem: 99282, sent: "BEARISH", act: "SWEEP" },
+    ],
+    trend: "bullish", trendPrev: "bullish",
+    summary: "4th straight bullish day — the longest streak of any miner. 59% bull, 33% bear. Bullish put-selling dominates: $260K at $8 (Apr), $118K LEAPS at $12, plus deep ITM put-selling at $20. Steady and consistent. CLSK remains the quiet standout in the BTC mining space."
+  },
+  XLU: {
+    spot: 46.91, spotPrev: null, trades: 4, tradesPrev: 0,
+    totalPrem: 204027, totalPremPrev: 0,
+    bullPrem: 62874, bearPrem: 141153, neutPrem: 0,
+    bullPremPrev: 0, bearPremPrev: 0,
+    calls: 1, puts: 3, sweeps: 3, sweepPrem: 141153,
+    bullCallPrem: 62874, bearCallPrem: 0, bullPutPrem: 0, bearPutPrem: 141153,
+    avgCallStrike: 65.00, avgPutStrike: 46.83,
+    topTrades: [
+      { type: "PUT", strike: 46, exp: "Mar 27", prem: 72666, sent: "BEARISH", act: "SWEEP" },
+      { type: "CALL", strike: 65, exp: "Jan 2028", prem: 62874, sent: "BULLISH", act: "TRADE" },
+      { type: "PUT", strike: 47, exp: "Jun 18", prem: 35340, sent: "BEARISH", act: "SWEEP" },
+    ],
+    trend: "bearish", trendPrev: null,
+    summary: "New — tiny sample (4 trades) but 69% bearish. Three bearish put sweeps at $46-47. Immaterial as standalone signal given volume."
+  },
+};
+
+const tickers = Object.keys(data).filter(t => data[t].trades > 0);
+const fmt = n => { if (!n) return "—"; if (n >= 1e6) return `$${(n/1e6).toFixed(1)}M`; if (n >= 1e3) return `$${(n/1e3).toFixed(0)}K`; return `$${n}`; };
+
+const tc = { bullish: {bg:"#0d2818",text:"#4ade80",border:"#166534"}, bearish: {bg:"#2d0a0a",text:"#f87171",border:"#7f1d1d"}, mixed: {bg:"#1a1a0a",text:"#facc15",border:"#713f12"}, hedging: {bg:"#0a1a2d",text:"#60a5fa",border:"#1e3a5f"} };
+
+const Bar = ({bull,bear,neut,total}) => { if(!total) return null; return (<div><div style={{display:"flex",height:6,borderRadius:3,overflow:"hidden",background:"#1a1a2e"}}><div style={{width:`${bull/total*100}%`,background:"#22c55e"}}/><div style={{width:`${bear/total*100}%`,background:"#ef4444"}}/><div style={{flex:1,background:"#525252"}}/></div><div style={{display:"flex",gap:16,marginTop:4,fontSize:10,color:"#3a3a55",fontFamily:"'JetBrains Mono',monospace"}}><span><span style={{color:"#22c55e"}}>●</span> Bull {(bull/total*100).toFixed(0)}%</span><span><span style={{color:"#ef4444"}}>●</span> Bear {(bear/total*100).toFixed(0)}%</span><span><span style={{color:"#525252"}}>●</span> Neut {(neut/total*100).toFixed(0)}%</span></div></div>); };
+
+const Card = ({ticker, d, expanded, onToggle}) => {
+  const t = tc[d.trend]||tc.mixed;
+  const callPct = d.trades>0?((d.calls/d.trades)*100).toFixed(0):0;
+  const spotChg = d.spotPrev?((d.spot/d.spotPrev-1)*100):null;
+  const premChg = d.totalPremPrev>0?((d.totalPrem/d.totalPremPrev-1)*100):null;
+  return (
+    <div onClick={onToggle} style={{background:"#0f0f1a",border:`1px solid ${expanded?t.border:"#1e1e3a"}`,borderRadius:12,padding:"14px 18px",cursor:"pointer",transition:"all 0.2s"}}>
+      <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",marginBottom:8,flexWrap:"wrap",gap:8}}>
+        <div style={{display:"flex",alignItems:"center",gap:10,flexWrap:"wrap"}}>
+          <span style={{fontFamily:"'JetBrains Mono',monospace",fontSize:19,fontWeight:700,color:"#e2e8f0",letterSpacing:1}}>{ticker}</span>
+          <span style={{fontSize:12,color:"#94a3b8",fontFamily:"'JetBrains Mono',monospace"}}>${d.spot?.toFixed(2)}{spotChg!=null&&<span style={{color:spotChg>=0?"#4ade80":"#f87171",marginLeft:4,fontSize:11}}>({spotChg>=0?"+":""}{spotChg.toFixed(1)}%)</span>}{d.spotPrev==null&&<span style={{color:"#facc15",marginLeft:4,fontSize:10}}>NEW</span>}</span>
+          <span style={{fontSize:10,fontWeight:600,padding:"2px 10px",borderRadius:20,background:t.bg,color:t.text,border:`1px solid ${t.border}`,textTransform:"uppercase",letterSpacing:1.5}}>{d.trend}</span>
+          {d.trendPrev&&d.trendPrev!==d.trend&&<span style={{fontSize:10,color:"#3a3a55"}}>was {d.trendPrev}</span>}
+        </div>
+        <div style={{display:"flex",alignItems:"center",gap:12,fontSize:12,color:"#64748b"}}>
+          <span>{d.trades} trades</span><span>{fmt(d.totalPrem)}</span>
+          {premChg!=null&&<span style={{color:premChg>=0?"#4ade80":"#f87171",fontSize:11,fontFamily:"'JetBrains Mono',monospace"}}>{premChg>=0?"+":""}{premChg.toFixed(0)}%</span>}
+          <span style={{fontSize:16,transform:expanded?"rotate(180deg)":"rotate(0deg)",transition:"transform 0.2s",color:"#3a3a55"}}>▾</span>
+        </div>
+      </div>
+      <Bar bull={d.bullPrem} bear={d.bearPrem} neut={d.neutPrem} total={d.totalPrem}/>
+      {expanded&&(
+        <div style={{marginTop:14,paddingTop:14,borderTop:"1px solid #1e1e3a"}}>
+          <p style={{fontSize:13,lineHeight:1.75,color:"#94a3b8",margin:"0 0 14px 0"}}>{d.summary}</p>
+          <div style={{display:"grid",gridTemplateColumns:"repeat(auto-fit,minmax(120px,1fr))",gap:8,marginBottom:14}}>
+            {[{l:"Calls",v:`${d.calls} (${callPct}%)`,c:"#22c55e"},{l:"Puts",v:`${d.puts} (${100-callPct}%)`,c:"#ef4444"},{l:"Sweeps",v:`${d.sweeps} / ${d.trades}`,c:"#9775fa"},{l:"Sweep Prem",v:fmt(d.sweepPrem),c:"#9775fa"},...(d.avgCallStrike>0?[{l:"Avg Call $",v:`$${d.avgCallStrike.toFixed(2)}`,c:"#22c55e"}]:[]),...(d.avgPutStrike>0?[{l:"Avg Put $",v:`$${d.avgPutStrike.toFixed(2)}`,c:"#ef4444"}]:[])].map((s,i)=>(
+              <div key={i} style={{background:"#070710",borderRadius:6,padding:"7px 10px"}}><div style={{fontSize:9,color:"#3a3a55",textTransform:"uppercase",letterSpacing:1,marginBottom:2}}>{s.l}</div><div style={{fontSize:13,fontWeight:600,color:s.c,fontFamily:"'JetBrains Mono',monospace"}}>{s.v}</div></div>
+            ))}
+          </div>
+          <div style={{fontSize:10,textTransform:"uppercase",letterSpacing:1.5,color:"#3a3a55",fontWeight:600,marginBottom:6}}>Top Trades</div>
+          {(d.topTrades||[]).map((tr,i)=>(
+            <div key={i} style={{display:"flex",justifyContent:"space-between",padding:"5px 8px",background:i%2===0?"#070710":"transparent",borderRadius:4,fontSize:12,fontFamily:"'JetBrains Mono',monospace"}}>
+              <span style={{color:tr.type==="CALL"?"#22c55e":"#ef4444",width:44,fontWeight:600}}>{tr.type}</span>
+              <span style={{color:"#e2e8f0",width:55}}>${tr.strike}</span>
+              <span style={{color:"#3a3a55",width:70}}>{tr.exp}</span>
+              <span style={{color:"#e2e8f0",width:68,textAlign:"right"}}>{fmt(tr.prem)}</span>
+              <span style={{width:65,textAlign:"right",color:tr.sent==="BULLISH"?"#22c55e":tr.sent==="BEARISH"?"#ef4444":"#facc15"}}>{tr.sent}</span>
+              <span style={{width:52,textAlign:"right",color:tr.act==="SWEEP"?"#9775fa":"#3a3a55"}}>{tr.act}</span>
+            </div>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+};
+
+export default function App(){
+  const [expanded,setExpanded]=useState(null);
+  const [filter,setFilter]=useState("all");
+  const [sort,setSort]=useState("premium");
+  const groups={all:tickers,bullish:tickers.filter(t=>data[t].trend==="bullish"),bearish:tickers.filter(t=>data[t].trend==="bearish"),other:tickers.filter(t=>["mixed","hedging"].includes(data[t].trend)),crypto:tickers.filter(t=>["IBIT","ETHA"].includes(t))};
+  let list=[...groups[filter]];
+  list.sort((a,b)=>{const da=data[a],db=data[b];if(sort==="premium")return db.totalPrem-da.totalPrem;if(sort==="trades")return db.trades-da.trades;if(sort==="bullpct")return(db.bullPrem/db.totalPrem)-(da.bullPrem/da.totalPrem);if(sort==="bearpct")return(db.bearPrem/db.totalPrem)-(da.bearPrem/da.totalPrem);return a.localeCompare(b);});
+  const totalPrem=tickers.reduce((s,t)=>s+data[t].totalPrem,0);
+  const totalTrades=tickers.reduce((s,t)=>s+data[t].trades,0);
+  const totalBull=tickers.reduce((s,t)=>s+data[t].bullPrem,0);
+  const totalBear=tickers.reduce((s,t)=>s+data[t].bearPrem,0);
+
+  return(
+    <div style={{background:"#050508",minHeight:"100vh",color:"#e2e8f0",fontFamily:"'DM Sans',-apple-system,sans-serif",padding:"24px 20px"}}>
+      <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+      <div style={{maxWidth:920,margin:"0 auto"}}>
+        <div style={{marginBottom:22}}><h1 style={{fontSize:22,fontWeight:700,margin:0,letterSpacing:-0.5}}>Options Flow Terminal</h1><p style={{fontSize:12,color:"#3a3a55",margin:"4px 0 0",fontFamily:"'JetBrains Mono',monospace"}}>March 10, 2026 — {totalTrades.toLocaleString()} trades across {tickers.length} tickers</p></div>
+        <div style={{display:"grid",gridTemplateColumns:"repeat(4,1fr)",gap:10,marginBottom:20}}>
+          {[{l:"Total Premium",v:fmt(totalPrem),c:"#e2e8f0"},{l:"Trades",v:totalTrades.toLocaleString(),c:"#e2e8f0"},{l:"Bull Premium",v:fmt(totalBull),c:"#22c55e"},{l:"Bear Premium",v:fmt(totalBear),c:"#ef4444"}].map((s,i)=>(
+            <div key={i} style={{background:"#0f0f1a",borderRadius:8,padding:"12px 14px",border:"1px solid #1e1e3a"}}><div style={{fontSize:9,color:"#3a3a55",textTransform:"uppercase",letterSpacing:1.5,marginBottom:3}}>{s.l}</div><div style={{fontSize:18,fontWeight:700,color:s.c,fontFamily:"'JetBrains Mono',monospace"}}>{s.v}</div></div>
+          ))}
+        </div>
+        <div style={{display:"flex",gap:8,marginBottom:16,flexWrap:"wrap",alignItems:"center"}}>
+          {[{k:"all",l:"All"},{k:"bullish",l:`Bullish (${groups.bullish.length})`},{k:"bearish",l:`Bearish (${groups.bearish.length})`},{k:"other",l:`Mixed (${groups.other.length})`},{k:"crypto",l:"Crypto"}].map(f=>(<button key={f.k} onClick={()=>setFilter(f.k)} style={{padding:"5px 14px",borderRadius:20,border:"1px solid",borderColor:filter===f.k?"#4f46e5":"#1e1e3a",background:filter===f.k?"#1e1b4b":"transparent",color:filter===f.k?"#a5b4fc":"#64748b",fontSize:12,fontWeight:500,cursor:"pointer"}}>{f.l}</button>))}
+          <div style={{marginLeft:"auto",display:"flex",alignItems:"center",gap:6}}><span style={{fontSize:10,color:"#3a3a55",fontFamily:"'JetBrains Mono',monospace"}}>Sort:</span><select value={sort} onChange={e=>setSort(e.target.value)} style={{background:"#0f0f1a",border:"1px solid #1e1e3a",color:"#e2e8f0",fontFamily:"'JetBrains Mono',monospace",fontSize:11,padding:"4px 8px",borderRadius:6,cursor:"pointer"}}><option value="premium">Premium</option><option value="trades">Trades</option><option value="bullpct">Bull %</option><option value="bearpct">Bear %</option><option value="alpha">Ticker</option></select></div>
+        </div>
+        <div style={{display:"flex",flexDirection:"column",gap:8}}>{list.map(t=>(<Card key={t} ticker={t} d={data[t]} expanded={expanded===t} onToggle={()=>setExpanded(expanded===t?null:t)}/>))}</div>
+        <div style={{marginTop:24,padding:16,background:"#0a0a14",borderRadius:10,border:"1px solid #1e1e3a",fontSize:13,lineHeight:1.9,color:"#64748b"}}>
+          <div style={{fontSize:10,textTransform:"uppercase",letterSpacing:1.5,color:"#3a3a55",fontWeight:600,marginBottom:8}}>Key Themes — March 10</div>
+          <span style={{color:"#4ade80"}}>▲ RISK-ON BOUNCE:</span> Broad green day. NVDA +3.8% ($45.2M premium, biggest ever), HIMS +49.3% gap, BTC miners +2-5%. Most tickers flipped bullish or improved.<br/>
+          <span style={{color:"#4ade80"}}>▲ NVDA CONVICTION:</span> $45.2M total, 48% bull. $1.8M call sweep ABOVE ASK at $182. Dip-buying from Friday now a full rally trade.<br/>
+          <span style={{color:"#4ade80"}}>▲ XLF REVERSAL:</span> From 73% bearish (Mar 5) to 86% bullish. $2.6M put-selling at $46. Financials risk-off completely unwound.<br/>
+          <span style={{color:"#4ade80"}}>▲ MINERS RECOVERING:</span> CIFR, RIOT, WULF all improved. CLSK 4th straight bullish day. IREN steady at 57% bull with $5.3M put-selling.<br/>
+          <span style={{color:"#f87171"}}>▼ GOLD TURNING:</span> GLD bearish for first time — 44% bear at new high $477.52. Bearish call premium ($9.7M) signals call-selling into rally. Possible top.<br/>
+          <span style={{color:"#f87171"}}>▼ SMR FLIPPED:</span> 3-day bullish streak broken, now 62% bearish. Vol-selling stopped, replaced by directional puts.<br/>
+          <span style={{color:"#facc15"}}>◆ IBIT EASING:</span> Bear premium dropped 57%→46%. No longer relentlessly bearish. Call flow turned bullish for first time. ETHA cooled to mixed.<br/>
+          <span style={{color:"#facc15"}}>◆ HIMS EXPLODED:</span> +49.3% gap, premium +211%. Complete reset from bearish to bullish.
+        </div>
+      </div>
+    </div>
+  );
 }
